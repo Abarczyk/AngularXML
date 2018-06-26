@@ -23,7 +23,8 @@ App.service("AjaxService", ['$http',function ($http) {
               url: url,
               data: data,
               headers: { "Content-Type": "application/json" }
-        }).then(function (response) {
+        })
+        return promise.then(function (response) {
             //Succes
             if (method == "GET"){
               switch (url) {
@@ -51,6 +52,7 @@ App.service("AjaxService", ['$http',function ($http) {
               // POST
               console.log("POST")
             }
+            return response
 
         },function (reason) {
             //error

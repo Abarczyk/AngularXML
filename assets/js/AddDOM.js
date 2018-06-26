@@ -1,6 +1,6 @@
-App.service("AddDOM", ['$http', function ($http) {
+App.service("AddDOM", ['$http','$compile', function ($http,$compile) {
   var add = this
-  add.mdl = mdl            // donne l'acces à champ()
+  add.mdl = mdl            // donne l'acces à mdl()
 
   var fonctions = getlocalStorage('fonctions')
 
@@ -74,6 +74,7 @@ App.service("AddDOM", ['$http', function ($http) {
     dom.append(label)
     dom.append(br)
     label.append(input)
+    $compile(input)
     label.append(data.unit)
     dom.append(br)
 

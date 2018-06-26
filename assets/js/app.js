@@ -30,10 +30,6 @@ config(['$routeProvider', function($routeProvider) {
       templateUrl: 'views/newModele.html'
    }).
 
-   when('/form1', {
-      templateUrl: 'views/form1.html'
-   }).
-
    otherwise({
       redirectTo: '/accueil'
    })

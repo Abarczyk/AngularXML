@@ -1,27 +1,38 @@
 
 App.controller('XMLController', ['$scope','AjaxService','AddDOM',function ($scope,$AjaxService,$AddDOM) {
+
 var ctrl = this
 
-ctrl.getlocalStorage = getlocalStorage
-  var libraires = [
-    { "path" : "backend/reload.php"},
-    { "path" : "assets/json/categories.json"},
-    { "path" : "assets/json/models.json"},
-    { "path" : "assets/json/fonctions.json"},
-    { "path" : "assets/json/champs.json"}
-  ]
 
-/* rechargement de la base de donnée */
-libraires.forEach(function(value) {
-      $AjaxService.get(value.path)
-      console.log("librairie " + value.path + " chargée")
+
+ctrl.getlocalStorage = getlocalStorage
+
+var librairie = [
+  { "path" : "assets/json/librairie.json", "name" : "librairie", "valeur" : ""}
+]
+  /* rechargement de la base de donnée */
+let promise = $AjaxService.get("backend/reload.php")
+promise.then(function(response){
+  /* on attend que reload.php ai fini de créer les Json*/
+  librairie.forEach(function(index) {
+
+        let promise = $AjaxService.get(index.path)
+        promise.then(function(response){
+          /* on attend que les données soient récupérées puis on les ranges dans la librairie*/
+            $scope.librairie = response.data
+            console.log($scope.librairie)
+        })
+        console.log("librairie " + index.path + " chargée")
+  })
+
 })
 
-$scope.categories = getlocalStorage('categories')
-$scope.models = getlocalStorage('models')
-$scope.fonctions = getlocalStorage('fonctions')
-$scope.champs = getlocalStorage('champs')
 
+
+$scope.edit = function(item){
+  $scope.modele = item
+
+}
 
 
 function getlocalStorage(data){
@@ -30,18 +41,15 @@ function getlocalStorage(data){
 
 
 $scope.master = {}
-$scope.input = {}
 
-$scope.update = function(model) {
-  $scope.master = angular.copy(input)
+$scope.update = function(item) {
+  $scope.master = angular.copy(item)
   console.log($scope.master)
 }
 
 $scope.reset = function() {
-  $scope.input = angular.copy($scope.master)
+  $scope.modele = angular.copy($scope.master)
 }
-
-$scope.reset()
 
 $scope.add = function(champ) {
   $AddDOM.mdl(champ)

@@ -1,21 +1,55 @@
 
-    <div class="categorie" ng-init = "categories" ng-repeat="category in categories" >
+    <div class="categorie" ng-init = "categories" ng-repeat="category in librairie" >
     <h1 class="title">{{category.nom}}</h1>
-    <input type="hidden" name="" value="{{category.modeles}}">
     <div class="Models" ng-init = "models" ng-repeat="model in category.modeles">
       <div class="item">
         <div class="item__name">
-          {{model}}
+          {{model[0].nom}}
 
         </div>
         <div class="item__desc">
-          {{model.description}}
+          {{model[0].description}}
         </div>
         <div class="item__actions">
+
           <i class="far fa-copy"></i>
-          <i ng-click = "" class="far fa-edit"></i>
+          <i ng-click = "edit(model[0])" data-toggle="modal" data-target="#myModal" class="far fa-edit"></i>
           <i class="far fa-trash-alt"></i>
         </div>
       </div>
     </div>
     </div>
+
+
+    <!-- Bouton execution modal -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h4 class="modal-title" id="myModalLabel">Modifier le modèle {{modele.nom}}</h4>
+    </div>
+    <div class="modal-body">
+
+        <form id="form" novalidate class="">
+          <div>
+              <div ng-init = "modele.fct" ng-repeat = "fct in modele.fct">
+                  {{fct[0].nom}}
+                  <div ng-init = "fct[0].champs" ng-repeat = "champ in fct[0].champs">
+                    <label>{{champ[0].nom}} <input type="{{champ[0].typeinput}}" ng-model = "champ[0].valeur" name="{{champ[0].name}}"> {{champ[0].unit}}</label>
+                  </div>
+              </div>
+          </div>
+
+        </form>
+        <input type="button" class="btn btn-lg btn-block btn-danger" ng-click = "reset" value="Reset">
+        <input type="button" class="btn btn-primary btn-lg btn-block" ng-click = "update(modele)" value="Save">
+        <pre>input = {{modele | json}}</pre>
+        <pre>master = {{master | json}}</pre>
+
+    </div>
+    </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
