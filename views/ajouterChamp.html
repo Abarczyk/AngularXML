@@ -1,0 +1,10 @@
+<form class="" action="" method="post">
+  <legend class="title">Ajouer un Champ</legend><br>
+    <label for="nom">Nom :</label>
+      <input ng-model = "nom" type="text" name="nom">
+    <label for="description">Description :</label>
+      <input ng-disabled = "!nom" ng-model = "description" type="text" name="description">
+    <label for="Champs">Catégorie</label>
+    <select ng-disabled = "!description" name="Champs" ng-model="Champs" ng-options="champ.label for champ in champs"></select>
+    <input ng-disabled = "!Champs" class="push_button" type="submit" name="action" value="Ajouter">
+</form>

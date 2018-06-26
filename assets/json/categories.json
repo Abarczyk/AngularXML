@@ -1,0 +1,23 @@
+[
+    {
+        "nom": "cat1",
+        "modeles": [
+            "modele1575",
+            "modele2242",
+            "bouh"
+        ]
+    },
+    {
+        "nom": "cat2",
+        "modeles": [
+            "modele5555",
+            "modele4444"
+        ]
+    },
+    {
+        "nom": "RollUp",
+        "modeles": [
+            "modele9999"
+        ]
+    }
+]

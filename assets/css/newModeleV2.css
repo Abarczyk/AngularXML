@@ -1,0 +1,26 @@
+.models{
+  display: grid;
+  grid-template-columns:1fr;
+  grid-gap: 10px;
+}
+
+
+.item{
+  overflow: hidden;
+  border: solid rgb(0, 0, 0) 1px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin: auto;
+  height: 70px;
+}
+
+.item__name, .item__desc, .item__actions{
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 70px;
+}
+
+.item__actions i{
+  margin-left: 10px;
+  cursor: pointer;
+}

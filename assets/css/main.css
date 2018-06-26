@@ -1,0 +1,149 @@
+/****************************************************
+ *      Bases
+ *****************************************************/
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.4;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+a{
+    text-decoration: none;
+    width: 100%;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #8c8c8c;
+    border-bottom: 1px solid #fff;
+}
+
+
+/****************************************************
+ *      Boutons
+ *****************************************************/
+input[type=password],input[type=file], input[type=text], input[type=email], select, textarea{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+input[type=submit] {
+    width: 100%;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/****************************************************
+ *      Titres
+ *****************************************************/
+.title {
+    color: #333;
+    display: inline-block;
+    padding: 1em;
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+    -moz-transition: all .2s linear 0s;
+    -webkit-transition: all .2s linear 0s;
+    -o-transition: all .2s linear 0s;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.title:hover {
+  color: #34B484;
+}
+
+/****************************************************
+ *      SideBar
+ *****************************************************/
+nav {
+  display: grid;
+  grid-template-rows: repeat(1fr,6);
+    height: 100%;
+    width: 160px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+nav a {
+  line-height: 50px;
+  border-bottom: solid 1px #D94E3B;
+
+  -moz-transition: all .2s linear 0s;
+  -webkit-transition: all .2s linear 0s;
+  -o-transition: all .2s linear 0s;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+nav a:hover{
+  color: #34B484;
+}
+
+/****************************************************
+ *      Bouton poussoir
+ *****************************************************/
+.push_button{
+        position:relative;
+        width:200px;
+        color:#FFF;
+        display:block;
+        text-decoration:none;
+        margin:0 auto;
+        border-radius:5px;
+        border:solid 1px #D94E3B;
+        background:#cb3b27;
+        text-align:center;
+        padding:20px 30px;
+        -webkit-transition: all 0.1s;
+        -moz-transition: all 0.1s;
+        transition: all 0.1s;
+        -webkit-box-shadow: 0px 9px 0px #84261a;
+        -moz-box-shadow: 0px 9px 0px #84261a;
+        box-shadow: 0px 9px 0px #84261a;
+}
+.push_button:active{
+    -webkit-box-shadow: 0px 2px 0px #84261a;
+    -moz-box-shadow: 0px 2px 0px #84261a;
+    box-shadow: 0px 2px 0px #84261a;
+    position:relative;
+    top:7px;
+}
+.push_button:disabled{
+  border:solid 1px rgb(161, 161, 161);
+  background:#717171;
+  -webkit-box-shadow: 0px 9px 0px #474747;
+  -moz-box-shadow: 0px 9px 0px #474747;
+  box-shadow: 0px 9px 0px #474747;
+}
+.hidden{
+  display: none;
+}
+
+
+label{
+  width: 100%; 
+}

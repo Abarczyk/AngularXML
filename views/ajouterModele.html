@@ -1,0 +1,10 @@
+<form class="" action="" method="post">
+  <legend class="title">Ajouer un modèle</legend><br>
+    <label for="nom">Nom :</label>
+      <input ng-model = "nom" type="text" name="nom">
+    <label for="description">Description :</label>
+      <input ng-disabled = "!nom" ng-model = "description" type="text" name="description">
+    <label for="Categorie">Catégorie</label>
+    <select ng-disabled = "!description" name="Categorie" ng-model="Categorie" ng-options="category.nom for category in categories | filter: shearch"></select>
+    <input ng-disabled = "!Categorie" class="push_button" type="submit" name="action" value="Ajouter">
+</form>

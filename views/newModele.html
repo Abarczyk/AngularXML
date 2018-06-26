@@ -1,0 +1,21 @@
+
+    <div class="categorie" ng-init = "categories" ng-repeat="category in categories" >
+    <h1 class="title">{{category.nom}}</h1>
+    <input type="hidden" name="" value="{{category.modeles}}">
+    <div class="Models" ng-init = "models" ng-repeat="model in category.modeles">
+      <div class="item">
+        <div class="item__name">
+          {{model}}
+
+        </div>
+        <div class="item__desc">
+          {{model.description}}
+        </div>
+        <div class="item__actions">
+          <i class="far fa-copy"></i>
+          <i ng-click = "" class="far fa-edit"></i>
+          <i class="far fa-trash-alt"></i>
+        </div>
+      </div>
+    </div>
+    </div>

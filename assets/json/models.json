@@ -1,0 +1,58 @@
+[
+    {
+        "nom": "bouh",
+        "description": "bouh",
+        "fct": [
+            "rotate",
+            "customerinfo"
+        ]
+    },
+    {
+        "nom": "modele1575",
+        "description": "début janvier 2017",
+        "fct": [
+            "addmirror",
+            "rotate",
+            "customerinfo"
+        ]
+    },
+    {
+        "nom": "modele2242",
+        "description": "début juillet 2017",
+        "fct": [
+            "addmirror"
+        ]
+    },
+    {
+        "nom": "modele4444",
+        "description": "début juillet 2018",
+        "fct": [
+            "rotate"
+        ]
+    },
+    {
+        "nom": "modele5555",
+        "description": "début janvier 2018",
+        "fct": [
+            "addmirror",
+            "customerinfo"
+        ]
+    },
+    {
+        "nom": "modele9999",
+        "description": "Nouveau modele",
+        "fct": [
+            "AddBlanc",
+            "AddCropMarc"
+        ]
+    },
+    {
+        "nom": "yyyy",
+        "description": "tyfgty",
+        "fct": [
+            "addmirror",
+            "rotate",
+            "customerinfo"
+        ]
+    }
+]

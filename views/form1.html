@@ -1,0 +1,14 @@
+
+<div>
+  <div ng-init = "models" ng-repeat = "champ in models">
+    <button type="button" ng-click = "add(champ)">{{champ.nom}}</button>
+  </div>
+  <form id="form" novalidate class="">
+
+  </form>
+  <input type="text" ng-model = "input.bouh" value="">
+
+  <pre>input = {{input | json}}</pre>
+  <pre>master = {{master | json}}</pre>
+
+</div>
