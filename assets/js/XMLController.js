@@ -20,7 +20,6 @@ promise.then(function(response){
         promise.then(function(response){
           /* on attend que les données soient récupérées puis on les ranges dans la librairie*/
             $scope.librairie = response.data
-            console.log($scope.librairie)
         })
         console.log("librairie " + index.path + " chargée")
   })
@@ -43,8 +42,9 @@ function getlocalStorage(data){
 $scope.master = {}
 
 $scope.update = function(item) {
+  console.log('envoi : ', item);
   $scope.master = angular.copy(item)
-  console.log($scope.master)
+  $AjaxService.post('backend/ecrire.php',$scope.master)
 }
 
 $scope.reset = function() {
