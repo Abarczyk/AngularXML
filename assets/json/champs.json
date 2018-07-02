@@ -140,22 +140,6 @@
         ]
     },
     {
-        "nom": "efrgeht",
-        "typeinput": "select",
-        "unit": "°",
-        "name": "efgrzehtr",
-        "valeur": "",
-        "default_select": [
-            "86",
-            "58",
-            "95",
-            "74",
-            "85",
-            "96",
-            "95"
-        ]
-    },
-    {
         "nom": "longueur",
         "typeinput": "text",
         "unit": "mm",
@@ -223,19 +207,6 @@
         "valeur": "non",
         "default_select": [
             ""
-        ]
-    },
-    {
-        "nom": "test",
-        "typeinput": "select",
-        "unit": "degrès",
-        "name": "test_test",
-        "valeur": "non",
-        "default_select": [
-            "90",
-            "180",
-            "270",
-            "360"
         ]
     }
 ]
