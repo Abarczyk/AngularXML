@@ -1,0 +1,81 @@
+[
+    {
+        "nom": "AddBlanc",
+        "description": "Ajouter des blancs sur les bords",
+        "champs": [
+            "AddBlancUp",
+            "AddBlancDown",
+            "AddBlancLeft",
+            "AddBlancRight"
+        ]
+    },
+    {
+        "nom": "AddCropMarc",
+        "description": "Ajoute des lignes de coupe sur l'image",
+        "champs": [
+            "AddCropMarcUp_Left_Vertical",
+            "AddCropMarcUp_Left_Horizontal",
+            "AddCropMarcDown_Left_Horizontal",
+            "AddCropMarcDown_Left_Vertical",
+            "AddCropMarcUp_Right_Vertical",
+            "AddCropMarcUp_Right_Horizontal",
+            "AddCropMarcDown_Right_Vertical",
+            "AddCropMarcDown_Right_Horizontal"
+        ]
+    },
+    {
+        "nom": "addmirror",
+        "description": "Ajouter un mirroir",
+        "champs": [
+            "left",
+            "right",
+            "up",
+            "down"
+        ]
+    },
+    {
+        "nom": "coucou",
+        "description": "coucou",
+        "champs": [
+            "AddBlancLeft",
+            "AddBlancDown",
+            "AddBlancUp",
+            "AddBlancRight",
+            "AddCropMarcDown_Right_Horizontal",
+            "AddCropMarcDown_Right_Vertical",
+            "AddCropMarcDown_Left_Horizontal",
+            "AddCropMarcDown_Left_Vertical",
+            "AddCropMarcUp_Right_Horizontal",
+            "AddCropMarcUp_Right_Vertical",
+            "AddCropMarcUp_Left_Horizontal",
+            "AddCropMarcUp_Left_Vertical",
+            "angle",
+            "ConvertRVB",
+            "value",
+            "customerfirstname",
+            "customerlastname",
+            "right",
+            "left",
+            "down",
+            "up",
+            "test_test"
+        ]
+    },
+    {
+        "nom": "customerinfo",
+        "description": "Ajouter des informations utilisateur",
+        "champs": [
+            "customerfirstname",
+            "customerlastname",
+            "test_test"
+        ]
+    },
+    {
+        "nom": "rotate",
+        "description": "Ajouter une rotation",
+        "champs": [
+            "value",
+            "angle"
+        ]
+    }
+]

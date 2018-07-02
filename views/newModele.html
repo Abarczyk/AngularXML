@@ -1,7 +1,8 @@
 
-    <div class="categorie" ng-init = "categories" ng-repeat="category in librairie" >
+    <div class="categorie" ng-repeat="category in librairie" >
     <h1 class="title">{{category.nom}}</h1>
-    <div class="Models" ng-init = "models" ng-repeat="model in category.modeles">
+    <div class="Models" ng-repeat="model in category.modeles" ng-if = 'category.modeles.length > 0' >
+
       <div class="item">
         <div class="item__name">
           {{model.nom}}
@@ -36,15 +37,26 @@
         <form id="form" novalidate class="">
           <div>
               <div ng-init = "modele.fct" ng-repeat = "fct in modele.fct">
-                  {{fct.nom}}
-                  <div ng-init = "fct.champs" ng-repeat = "champ in fct.champs">
-                    <label>{{champ.nom}} <input type="{{champ.typeinput}}" ng-model = "champ.valeur" name="{{champ.name}}"> {{champ.unit}}</label>
+                  <h1>{{fct.nom}}</h1><br><br>
+                  <div class="content" ng-init = "fct.champs" ng-repeat = "champ in fct.champs">
+                    <ng-switch on="champ.typeinput">
+                      <label ng-switch-when= "text" >{{champ.nom}} <input type="{{champ.typeinput}}" ng-model = "champ.valeur" name="{{champ.name}}"> {{champ.unit}}</label>
+
+                      <label ng-switch-when= "select" >{{champ.nom}}
+                        <select ng-model = "champ.valeur" name="{{champ.name}}" ng-init = "champ.default_select">
+                          <option ng-repeat="val in champ.default_select" value="{{val}}">{{val}}</option>
+                        </select>
+                      </label>
+                    </ng-switch>
+
+
+
+
                   </div>
               </div>
           </div>
 
         </form>
-        <input type="button" class="btn btn-lg btn-block btn-danger" ng-click = "reset" value="Reset">
         <input type="button" class="btn btn-primary btn-lg btn-block" ng-click = "update(modele)" value="Créer">
 
     </div>

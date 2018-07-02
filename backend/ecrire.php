@@ -7,9 +7,16 @@ var_dump($Tab);
 echo "<pre>";
 
 /*
-  creation du fichier au nom du modèle
+  creation du nom : NOM_ANNEE_MOIS_JOUR_HEURE_MINUTE_SECONDE.xml
 */
+$date = new DateTime();
+$tz = new DateTimeZone('Europe/Paris');
+$date->setTimezone($tz);
+$date  = explode(':',$date->format('Y:m:d:H:i:s'));
+$Tab->nom = $Tab->nom . '_' . $date[0] . '_' . $date[1] . '_' . $date[2] . '_' . $date[3] . '_' . $date[4] . '_' . $date[5];
 $xml_fic = fopen("../assets/xml/" . $Tab->nom . ".xml",'w+');
+
+
 /*
   creation de la structure du XML (en-tête)
 */

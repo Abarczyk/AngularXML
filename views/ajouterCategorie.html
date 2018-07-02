@@ -1,10 +1,11 @@
-<form class="" action="" method="post">
-  <legend class="title">Ajouer une Catégorie</legend><br>
+<div class="content">
+    <h1 class="title">Ajouter une Catégorie</h1><br>
+    <label for="nom">Nom :
+        <input ng-model = "item.nom" type="text" name="nom">
+    </label>
 
-    <label for="nom">Nom :</label>
-      <input ng-model = "nom" type="text" name="nom">
+    <input ng-click = "addCat(item)" ng-disabled = "!item.nom" class="push_button" type="submit" name="action" value="Ajouter">
 
-    <label for="Categorie">Catégorie</label>
-    <select multiple = "" name="Model" ng-disabled ="!nom" ng-model="Model" ng-options="model.nom for model in models"></select>
-    <input ng-disabled = "!Model" class="push_button" type="submit" name="action" value="Ajouter">
-</form>
+</div>
+
+<pre> catégorie : {{item | json}}</pre>

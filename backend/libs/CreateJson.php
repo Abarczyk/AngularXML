@@ -20,6 +20,33 @@ function CreateCategorie(){
   fclose($Json);
 }
 
+function CreateFonctions(){
+  // création du Json
+  $Tabmodels = [];
+  $Json = fopen('../assets/json/fonctions.json', 'w+');
+  $fonctions = selectbdd('nom,description,champs','fonctions');
+
+  for ($i=0; $i < count($fonctions); $i++) {
+    $fonctions[$i]['champs'] = explode(',',$fonctions[$i]['champs']);
+  }
+  $fonctions = json_encode($fonctions, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+  fwrite($Json, $fonctions);
+  fclose($Json);
+}
+function CreateChamps(){
+  // création du Json
+  $Tabmodels = [];
+  $Json = fopen('../assets/json/champs.json', 'w+');
+  $champs = selectbdd('nom,typeinput,unit,name,valeur,default_select','champs');
+
+  for ($i=0; $i < count($champs); $i++) {
+    $champs[$i]['default_select'] = explode(',',$champs[$i]['default_select']);
+  }
+  $champs = json_encode($champs, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+  fwrite($Json, $champs);
+  fclose($Json);
+}
+
 function CreateModels(){
   // création du Json
   $Json = fopen('../assets/json/models.json', 'w+');
@@ -64,7 +91,6 @@ function createLibrairie(){
         on recherche toutes les informations liées à ce nom dans la table modeles et on remplace le nom par toutes les données
       */
       $aux = selectbdd('nom,description,fct','modeles',"nom like '" . $categories[$p]['modeles'][$j] . "'");
-
       $categories[$p]['modeles'][$j] = $aux[0];
 
 
@@ -97,7 +123,8 @@ function createLibrairie(){
                 $categories[$p]['modeles'][$j]['fct'][$k]['champs'][$l] contient le nom du fonction en case l
                 on recherche toutes les informations liées à ce nom dans la table champs et on remplace le nom par toutes les données
               */
-              $aux = selectbdd('nom,typeinput,name,unit,valeur','champs',"name like '" . $categories[$p]['modeles'][$j]['fct'][$k]['champs'][$l] ."'");
+              $aux = selectbdd('nom,typeinput,name,unit,valeur,default_select','champs',"name like '" . $categories[$p]['modeles'][$j]['fct'][$k]['champs'][$l] ."'");
+              $aux[0]['default_select'] = explode(',',$aux[0]['default_select']);
               $categories[$p]['modeles'][$j]['fct'][$k]['champs'][$l] = $aux[0];
 
             }

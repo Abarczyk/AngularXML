@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Infos_Modele nom="modele5555" description="début janvier 2018"/>
+<Infos_Modele nom="modele1575_2018_07_02_11_06_34" description="début janvier 2017"/>
 <addmirror>
   <left>non</left>
   <right>non</right>
   <up>non</up>
   <down>non</down>
 </addmirror>
+<rotate>
+  <value>non</value>
+  <angle>non</angle>
+</rotate>
 <customerinfo>
   <customerfirstname>non</customerfirstname>
   <customerlastname>non</customerlastname>

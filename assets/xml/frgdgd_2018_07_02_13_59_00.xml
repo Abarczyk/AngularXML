@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Infos_Modele nom="modele9999" description="Nouveau modele"/>
+<Infos_Modele nom="frgdgd_2018_07_02_13_59_00" description="grdgdrgdrg"/>
 <AddBlanc>
   <AddBlancUp>non</AddBlancUp>
   <AddBlancDown>non</AddBlancDown>
@@ -16,3 +16,9 @@
   <AddCropMarcDown_Right_Vertical>non</AddCropMarcDown_Right_Vertical>
   <AddCropMarcDown_Right_Horizontal>non</AddCropMarcDown_Right_Horizontal>
 </AddCropMarc>
+<addmirror>
+  <left>non</left>
+  <right>non</right>
+  <up>non</up>
+  <down>non</down>
+</addmirror>
