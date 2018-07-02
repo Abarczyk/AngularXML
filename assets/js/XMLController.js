@@ -30,7 +30,7 @@ promise.then(function(response){
 
 $scope.edit = function(item){
   $scope.modele = item
-
+  console.log('modele :', $scope.modele)
 }
 
 
@@ -51,8 +51,34 @@ $scope.reset = function() {
   $scope.modele = angular.copy($scope.master)
 }
 
-$scope.add = function(champ) {
-  $AddDOM.mdl(champ)
+$scope.copy = function(item) {
+  var copy = angular.copy(item)
+  copy.nom = copy.nom + '_2'
+  console.log("copie :",copy)
+  var lib = $scope.librairie
+  for (var i = 0; i < lib.length; i++) {
+    for (var k = 0; k < lib[i].modeles.length; k++) {
+      if (lib[i].modeles[k].nom === item.nom) {
+        lib[i].modeles.push(copy)
+        console.log('librairie :', $scope.librairie)
+        return
+      }
+    }
+  }
+}
+
+
+$scope.remove = function(item) {
+  var i = 0
+  var k = 0
+  var lib = $scope.librairie
+  for (i; i < lib.length; i++) {
+    for (k; k < lib[i].modeles.length; k++) {
+      if (lib[i].modeles[k].nom === item.nom) {
+        lib[i].modeles.splice(k,1)
+      }
+    }
+  }
 }
 
 }])

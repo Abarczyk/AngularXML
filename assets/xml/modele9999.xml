@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Infos_Modele nom="modele9999" description="Nouveau modele"/>
+<AddBlanc>
+  <AddBlancUp>non</AddBlancUp>
+  <AddBlancDown>non</AddBlancDown>
+  <AddBlancLeft>non</AddBlancLeft>
+  <AddBlancRight>non</AddBlancRight>
+</AddBlanc>
+<AddCropMarc>
+  <AddCropMarcUp_Left_Vertical>non</AddCropMarcUp_Left_Vertical>
+  <AddCropMarcUp_Left_Horizontal>non</AddCropMarcUp_Left_Horizontal>
+  <AddCropMarcDown_Left_Horizontal>non</AddCropMarcDown_Left_Horizontal>
+  <AddCropMarcDown_Left_Vertical>non</AddCropMarcDown_Left_Vertical>
+  <AddCropMarcUp_Right_Vertical>non</AddCropMarcUp_Right_Vertical>
+  <AddCropMarcUp_Right_Horizontal>non</AddCropMarcUp_Right_Horizontal>
+  <AddCropMarcDown_Right_Vertical>non</AddCropMarcDown_Right_Vertical>
+  <AddCropMarcDown_Right_Horizontal>non</AddCropMarcDown_Right_Horizontal>
+</AddCropMarc>

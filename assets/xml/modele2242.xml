@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Infos_Modele nom="modele2242" description="début juillet 2017"/>
+<addmirror>
+  <name>left</name>
+  <valeur>non</valeur>
+  <name>right</name>
+  <valeur>non</valeur>
+  <name>up</name>
+  <valeur>non</valeur>
+  <name>down</name>
+  <valeur>non</valeur>
+</addmirror>

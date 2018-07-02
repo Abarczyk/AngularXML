@@ -10,6 +10,7 @@ App.service("AjaxService", ['$http','$httpParamSerializerJQLike',function ($http
     }
 
     function post(url,data){
+
       console.log('post : ', data)
       if (data === 'undefined') {
         data = {}
@@ -22,11 +23,12 @@ App.service("AjaxService", ['$http','$httpParamSerializerJQLike',function ($http
 
         var headers = {} ;
         headers['X-Requested-With'] = 'XMLHttpRequest';
+        headers['Content-Type'] = 'application/x-www-form-urlencoded';
 
         let promise = $http({
                 method    :     method,
                 url       :     url,
-                data      :     data,
+                data      :     $.param({json: JSON.stringify(data)}),
                 headers   :     headers,
                 cache     :     false
         })
