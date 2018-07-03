@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Infos_Modele nom="ModeleFlyers" description="Modèle typique des Flyers"/>
+<AddText>
+  <distance_du_bord>false</distance_du_bord>
+  <down>false</down>
+  <left>false</left>
+  <right>false</right>
+  <up>false</up>
+</AddText>
+<CheckResolution>
+  <max>1</max>
+  <min>1</min>
+</CheckResolution>
+<Dimensions>
+  <hauteur>false</hauteur>
+  <largeur>false</largeur>
+</Dimensions>
+<Rotation>
+  <rotation>false</rotation>
+</Rotation>
+<Template>
+  <value>false</value>
+</Template>

@@ -41,8 +41,8 @@ include "libs/CreateJson.php";
 $modele = json_decode($_POST['json']);
 
 $strFct = "";
-for ($i=0; $i < count($modele->fonction); $i++) {
-  $strFct .= $modele->fonction[$i]->nom . ',';
+for ($i=0; $i < count($modele->fct); $i++) {
+  $strFct .= $modele->fct[$i]->nom . ',';
 }
 /*
   on enleve la virgule de la fin

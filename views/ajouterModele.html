@@ -12,10 +12,10 @@
       <select ng-disabled = "!item.description" name="cat" ng-model = "item.category" ng-options="cat.nom for cat in categories"></select>
     </label>
     <label for="fonction">Fonctions existantes
-      <select ng-disabled = "!item.category" multiple name="modele" ng-model = "item.fonction" ng-options="fct.nom for fct in fonctions"></select>
+      <select ng-disabled = "!item.category" multiple name="modele" ng-model = "item.fct" ng-options="fct.nom for fct in fonctions"></select>
     </label>
 
-    <input ng-click = "addModel(item)" ng-disabled = "!item.fonction" class="push_button" type="submit" name="action" value="Ajouter">
+    <input ng-click = "addModel(item)" ng-disabled = "!item.fct" class="push_button" type="submit" name="action" value="Ajouter">
 
 </div>
 

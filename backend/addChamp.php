@@ -16,7 +16,7 @@ include "libs/CreateJson.php";
 */
 $champ = json_decode($_POST['json']);
 if (!$champ->valeur) {
-  $champ->valeur = "non";
+  $champ->valeur = "false";
 }
 newChamps($champ->name,$champ->nom,$champ->typeinput,$champ->unit,$champ->valeur,$champ->default_select);
 CreateChamp();

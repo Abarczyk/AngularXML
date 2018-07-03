@@ -1,12 +1,6 @@
 <?php
 $Tab = json_decode($_POST['json']);
 /*
-DEBUGG
-echo "<pre>";
-var_dump($Tab);
-echo "<pre>";
-
-/*
   creation du nom : NOM_ANNEE_MOIS_JOUR_HEURE_MINUTE_SECONDE.xml
 
 $date = new DateTime();
@@ -30,6 +24,9 @@ $info_Modele->setAttribute('nom',$Tab->nom);
 $info_Modele->setAttribute('description',$Tab->description);
 
 foreach ($Tab->fct as $value) {
+  echo "<pre> fonction : ";
+  var_dump($value);
+  echo "<pre>";
   /*
     on a acces à un objet contenant :
     - nom             (nom de la fonction)
@@ -37,6 +34,9 @@ foreach ($Tab->fct as $value) {
   */
   $xml_doc->appendChild($fct = $xml_doc->createElement($value->nom));
   foreach ($value->champs as $key) {
+    echo "<pre> champs : ";
+    var_dump($key);
+    echo "<pre>";
     /*
       on a acces à un objet contenant :
       - nom           (affiché sur le web)

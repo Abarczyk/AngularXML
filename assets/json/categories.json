@@ -1,26 +1,32 @@
 [
     {
-        "nom": "cat1",
+        "nom": "Affiches",
         "modeles": [
-            "modele5555"
+            "ModeleAffiches"
         ]
     },
     {
-        "nom": "cat2",
+        "nom": "Brochures",
         "modeles": [
-            ""
+            "ModeleBrochures"
         ]
     },
     {
-        "nom": "dzqfegrsdhtjyu",
+        "nom": "Cartes de visite",
         "modeles": [
-            ""
+            "ModeleCard"
+        ]
+    },
+    {
+        "nom": "Flyers",
+        "modeles": [
+            "ModeleFlyers"
         ]
     },
     {
         "nom": "RollUp",
         "modeles": [
-            ""
+            "ModeleRollUp"
         ]
     }
 ]

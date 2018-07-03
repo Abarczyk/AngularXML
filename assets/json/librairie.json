@@ -1,219 +1,721 @@
 [
     {
-        "id": "7",
-        "nom": "cat1",
-        "modeles": [
-            {
-                "nom": "modele5555",
-                "description": "aefrzthry",
-                "fct": [
-                    {
-                        "nom": "AddBlanc",
-                        "champs": [
-                            {
-                                "nom": "Ajouter blanc en haut",
-                                "typeinput": "text",
-                                "name": "AddBlancUp",
-                                "unit": "mm",
-                                "valeur": "non",
-                                "default_select": [
-                                    ""
-                                ]
-                            },
-                            {
-                                "nom": "Ajouter blanc en bas",
-                                "typeinput": "text",
-                                "name": "AddBlancDown",
-                                "unit": "mm",
-                                "valeur": "non",
-                                "default_select": [
-                                    ""
-                                ]
-                            },
-                            {
-                                "nom": "Ajouter blanc à gauche",
-                                "typeinput": "text",
-                                "name": "AddBlancLeft",
-                                "unit": "mm",
-                                "valeur": "non",
-                                "default_select": [
-                                    ""
-                                ]
-                            },
-                            {
-                                "nom": "Ajouter un blanc à droite",
-                                "typeinput": "text",
-                                "name": "AddBlancRight",
-                                "unit": "mm",
-                                "valeur": "non",
-                                "default_select": [
-                                    ""
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "nom": "AddCropMarc",
-                        "champs": [
-                            {
-                                "nom": "Ajouter une ligne de coupe en haut à gauche (verticale)",
-                                "typeinput": "text",
-                                "name": "AddCropMarcUp_Left_Vertical",
-                                "unit": "mm",
-                                "valeur": "non",
-                                "default_select": [
-                                    ""
-                                ]
-                            },
-                            {
-                                "nom": "Ajouter une ligne de coupe en haut à gauche (horizontale)",
-                                "typeinput": "text",
-                                "name": "AddCropMarcUp_Left_Horizontal",
-                                "unit": "mm",
-                                "valeur": "non",
-                                "default_select": [
-                                    ""
-                                ]
-                            },
-                            {
-                                "nom": "Ajouter une ligne de coupe en bas à gauche (honrizontale)",
-                                "typeinput": "text",
-                                "name": "AddCropMarcDown_Left_Horizontal",
-                                "unit": "mm",
-                                "valeur": "non",
-                                "default_select": [
-                                    ""
-                                ]
-                            },
-                            {
-                                "nom": "Ajouter une ligne de coupe en bas à gauche (verticale)",
-                                "typeinput": "text",
-                                "name": "AddCropMarcDown_Left_Vertical",
-                                "unit": "mm",
-                                "valeur": "non",
-                                "default_select": [
-                                    ""
-                                ]
-                            },
-                            {
-                                "nom": "Ajouter une ligne de coupe en haut à droite (verticale)",
-                                "typeinput": "text",
-                                "name": "AddCropMarcUp_Right_Vertical",
-                                "unit": "mm",
-                                "valeur": "non",
-                                "default_select": [
-                                    ""
-                                ]
-                            },
-                            {
-                                "nom": "Ajouter une ligne de coupe en haut à droite (horizontale)",
-                                "typeinput": "text",
-                                "name": "AddCropMarcUp_Right_Horizontal",
-                                "unit": "mm",
-                                "valeur": "non",
-                                "default_select": [
-                                    ""
-                                ]
-                            },
-                            {
-                                "nom": "Ajouter une ligne de coupe en bas à droite (verticale)",
-                                "typeinput": "text",
-                                "name": "AddCropMarcDown_Right_Vertical",
-                                "unit": "mm",
-                                "valeur": "non",
-                                "default_select": [
-                                    ""
-                                ]
-                            },
-                            {
-                                "nom": "Ajouter une ligne de coupe en bas à droite (horizontale)",
-                                "typeinput": "text",
-                                "name": "AddCropMarcDown_Right_Horizontal",
-                                "unit": "mm",
-                                "valeur": "non",
-                                "default_select": [
-                                    ""
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "nom": "addmirror",
-                        "champs": [
-                            {
-                                "nom": "rotation à gauche",
-                                "typeinput": "text",
-                                "name": "left",
-                                "unit": "mm",
-                                "valeur": "non",
-                                "default_select": [
-                                    ""
-                                ]
-                            },
-                            {
-                                "nom": "rotation à droite",
-                                "typeinput": "text",
-                                "name": "right",
-                                "unit": "mm",
-                                "valeur": "non",
-                                "default_select": [
-                                    ""
-                                ]
-                            },
-                            {
-                                "nom": "rotation supérieure",
-                                "typeinput": "text",
-                                "name": "up",
-                                "unit": "mm",
-                                "valeur": "non",
-                                "default_select": [
-                                    ""
-                                ]
-                            },
-                            {
-                                "nom": "rotation inférieure",
-                                "typeinput": "text",
-                                "name": "down",
-                                "unit": "mm",
-                                "valeur": "non",
-                                "default_select": [
-                                    ""
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "8",
-        "nom": "cat2",
-        "modeles": [
-            {
-                "fct": [
-                    {
-                        "champs": [
-                            {
-                                "default_select": [
-                                    ""
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "10",
+        "id": "12",
         "nom": "RollUp",
         "modeles": [
             {
+                "nom": "ModeleRollUp",
+                "description": "Modèle typique des RollUp",
                 "fct": [
                     {
+                        "nom": "Addblanc",
                         "champs": [
                             {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "AddCropLine",
+                        "champs": [
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "AddCropMarksExt",
+                        "champs": [
+                            {
+                                "nom": "Left down horizontal",
+                                "typeinput": "text",
+                                "name": "left_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Left down vertical",
+                                "typeinput": "text",
+                                "name": "left_down_vertical",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Left up horizontal",
+                                "typeinput": "text",
+                                "name": "left_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Left up vertical",
+                                "typeinput": "text",
+                                "name": "left_up_vertical",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right down horizontal",
+                                "typeinput": "text",
+                                "name": "right_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right down vertical",
+                                "typeinput": "text",
+                                "name": "right_down_vertical",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right up horizontal",
+                                "typeinput": "text",
+                                "name": "right_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right up vertical",
+                                "typeinput": "text",
+                                "name": "right_up_vertical",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "AddCropMarksInt",
+                        "champs": [
+                            {
+                                "nom": "Left down horizontal",
+                                "typeinput": "text",
+                                "name": "left_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Left down vertical",
+                                "typeinput": "text",
+                                "name": "left_down_vertical",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Left up horizontal",
+                                "typeinput": "text",
+                                "name": "left_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Left up vertical",
+                                "typeinput": "text",
+                                "name": "left_up_vertical",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right down horizontal",
+                                "typeinput": "text",
+                                "name": "right_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right down vertical",
+                                "typeinput": "text",
+                                "name": "right_down_vertical",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right up horizontal",
+                                "typeinput": "text",
+                                "name": "right_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right up vertical",
+                                "typeinput": "text",
+                                "name": "right_up_vertical",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "AddFoldLine",
+                        "champs": [
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "AddMachineLine",
+                        "champs": [
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "AddText",
+                        "champs": [
+                            {
+                                "nom": "Distance du bord",
+                                "typeinput": "text",
+                                "name": "distance_du_bord",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "CheckResolution",
+                        "champs": [
+                            {
+                                "nom": "Max",
+                                "typeinput": "text",
+                                "name": "max",
+                                "unit": "",
+                                "valeur": "1",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Min",
+                                "typeinput": "text",
+                                "name": "min",
+                                "unit": "",
+                                "valeur": "1",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "Dimensions",
+                        "champs": [
+                            {
+                                "nom": "Hauteur",
+                                "typeinput": "text",
+                                "name": "hauteur",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Largeur",
+                                "typeinput": "text",
+                                "name": "largeur",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "Miroir",
+                        "champs": [
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "Preflight",
+                        "champs": [
+                            {
+                                "nom": "Valeur",
+                                "typeinput": "text",
+                                "name": "value",
+                                "unit": "",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "Rotation",
+                        "champs": [
+                            {
+                                "nom": "Rotation",
+                                "typeinput": "select",
+                                "name": "rotation",
+                                "unit": "degrès",
+                                "valeur": "false",
+                                "default_select": [
+                                    "0",
+                                    "90",
+                                    "180",
+                                    "270"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "13",
+        "nom": "Brochures",
+        "modeles": [
+            {
+                "nom": "ModeleBrochures",
+                "description": "Modèle typique pour les brochures",
+                "fct": [
+                    {
+                        "nom": "Addblanc",
+                        "champs": [
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "CheckResolution",
+                        "champs": [
+                            {
+                                "nom": "Max",
+                                "typeinput": "text",
+                                "name": "max",
+                                "unit": "",
+                                "valeur": "1",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Min",
+                                "typeinput": "text",
+                                "name": "min",
+                                "unit": "",
+                                "valeur": "1",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "Dimensions",
+                        "champs": [
+                            {
+                                "nom": "Hauteur",
+                                "typeinput": "text",
+                                "name": "hauteur",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Largeur",
+                                "typeinput": "text",
+                                "name": "largeur",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "Preflight",
+                        "champs": [
+                            {
+                                "nom": "Valeur",
+                                "typeinput": "text",
+                                "name": "value",
+                                "unit": "",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "Rotation",
+                        "champs": [
+                            {
+                                "nom": "Rotation",
+                                "typeinput": "select",
+                                "name": "rotation",
+                                "unit": "degrès",
+                                "valeur": "false",
+                                "default_select": [
+                                    "0",
+                                    "90",
+                                    "180",
+                                    "270"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "14",
+        "nom": "Cartes de visite",
+        "modeles": [
+            {
+                "nom": "ModeleCard",
+                "description": "Modèle typique des cartes de visite",
+                "fct": [
+                    {
+                        "nom": "AddText",
+                        "champs": [
+                            {
+                                "nom": "Distance du bord",
+                                "typeinput": "text",
+                                "name": "distance_du_bord",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "CheckResolution",
+                        "champs": [
+                            {
+                                "nom": "Max",
+                                "typeinput": "text",
+                                "name": "max",
+                                "unit": "",
+                                "valeur": "1",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Min",
+                                "typeinput": "text",
+                                "name": "min",
+                                "unit": "",
+                                "valeur": "1",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "Dimensions",
+                        "champs": [
+                            {
+                                "nom": "Hauteur",
+                                "typeinput": "text",
+                                "name": "hauteur",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Largeur",
+                                "typeinput": "text",
+                                "name": "largeur",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "Template",
+                        "champs": [
+                            {
+                                "nom": "Valeur",
+                                "typeinput": "text",
+                                "name": "value",
+                                "unit": "",
+                                "valeur": "false",
                                 "default_select": [
                                     ""
                                 ]
@@ -225,14 +727,575 @@
         ]
     },
     {
-        "id": "11",
-        "nom": "dzqfegrsdhtjyu",
+        "id": "15",
+        "nom": "Affiches",
         "modeles": [
             {
+                "nom": "ModeleAffiches",
+                "description": "Modèle typique des affiches",
                 "fct": [
                     {
+                        "nom": "Addblanc",
                         "champs": [
                             {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "AddCropLine",
+                        "champs": [
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "AddCropMarksExt",
+                        "champs": [
+                            {
+                                "nom": "Left down horizontal",
+                                "typeinput": "text",
+                                "name": "left_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Left down vertical",
+                                "typeinput": "text",
+                                "name": "left_down_vertical",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Left up horizontal",
+                                "typeinput": "text",
+                                "name": "left_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Left up vertical",
+                                "typeinput": "text",
+                                "name": "left_up_vertical",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right down horizontal",
+                                "typeinput": "text",
+                                "name": "right_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right down vertical",
+                                "typeinput": "text",
+                                "name": "right_down_vertical",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right up horizontal",
+                                "typeinput": "text",
+                                "name": "right_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right up vertical",
+                                "typeinput": "text",
+                                "name": "right_up_vertical",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "AddCropMarksInt",
+                        "champs": [
+                            {
+                                "nom": "Left down horizontal",
+                                "typeinput": "text",
+                                "name": "left_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Left down vertical",
+                                "typeinput": "text",
+                                "name": "left_down_vertical",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Left up horizontal",
+                                "typeinput": "text",
+                                "name": "left_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Left up vertical",
+                                "typeinput": "text",
+                                "name": "left_up_vertical",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right down horizontal",
+                                "typeinput": "text",
+                                "name": "right_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right down vertical",
+                                "typeinput": "text",
+                                "name": "right_down_vertical",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right up horizontal",
+                                "typeinput": "text",
+                                "name": "right_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right up vertical",
+                                "typeinput": "text",
+                                "name": "right_up_vertical",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "AddFoldLine",
+                        "champs": [
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "AddMachineLine",
+                        "champs": [
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "CheckResolution",
+                        "champs": [
+                            {
+                                "nom": "Max",
+                                "typeinput": "text",
+                                "name": "max",
+                                "unit": "",
+                                "valeur": "1",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Min",
+                                "typeinput": "text",
+                                "name": "min",
+                                "unit": "",
+                                "valeur": "1",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "Dimensions",
+                        "champs": [
+                            {
+                                "nom": "Hauteur",
+                                "typeinput": "text",
+                                "name": "hauteur",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Largeur",
+                                "typeinput": "text",
+                                "name": "largeur",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "Miroir",
+                        "champs": [
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "NbPages",
+                        "champs": [
+                            {
+                                "nom": "Pages attendues",
+                                "typeinput": "text",
+                                "name": "pages",
+                                "unit": "",
+                                "valeur": "1",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "Preflight",
+                        "champs": [
+                            {
+                                "nom": "Valeur",
+                                "typeinput": "text",
+                                "name": "value",
+                                "unit": "",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "Rotation",
+                        "champs": [
+                            {
+                                "nom": "Rotation",
+                                "typeinput": "select",
+                                "name": "rotation",
+                                "unit": "degrès",
+                                "valeur": "false",
+                                "default_select": [
+                                    "0",
+                                    "90",
+                                    "180",
+                                    "270"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "Template",
+                        "champs": [
+                            {
+                                "nom": "Valeur",
+                                "typeinput": "text",
+                                "name": "value",
+                                "unit": "",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "16",
+        "nom": "Flyers",
+        "modeles": [
+            {
+                "nom": "ModeleFlyers",
+                "description": "Modèle typique des Flyers",
+                "fct": [
+                    {
+                        "nom": "AddText",
+                        "champs": [
+                            {
+                                "nom": "Distance du bord",
+                                "typeinput": "text",
+                                "name": "distance_du_bord",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "CheckResolution",
+                        "champs": [
+                            {
+                                "nom": "Max",
+                                "typeinput": "text",
+                                "name": "max",
+                                "unit": "",
+                                "valeur": "1",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Min",
+                                "typeinput": "text",
+                                "name": "min",
+                                "unit": "",
+                                "valeur": "1",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "Dimensions",
+                        "champs": [
+                            {
+                                "nom": "Hauteur",
+                                "typeinput": "text",
+                                "name": "hauteur",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "nom": "Largeur",
+                                "typeinput": "text",
+                                "name": "largeur",
+                                "unit": "mm",
+                                "valeur": "false",
+                                "default_select": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "Rotation",
+                        "champs": [
+                            {
+                                "nom": "Rotation",
+                                "typeinput": "select",
+                                "name": "rotation",
+                                "unit": "degrès",
+                                "valeur": "false",
+                                "default_select": [
+                                    "0",
+                                    "90",
+                                    "180",
+                                    "270"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nom": "Template",
+                        "champs": [
+                            {
+                                "nom": "Valeur",
+                                "typeinput": "text",
+                                "name": "value",
+                                "unit": "",
+                                "valeur": "false",
                                 "default_select": [
                                     ""
                                 ]

@@ -133,12 +133,13 @@ App.controller('XMLController', ['$scope','AjaxService','AddDOM',function ($scop
             for (var k = 0; k < lib[i].modeles.length; k++) {
               if (lib[i].modeles[k].nom === item.nom) {
                   lib[i].modeles.push(copy)
+                  copy.category = { "nom" : lib[i].nom }
                   console.log('librairie :', $scope.librairie)
+                  $AjaxService.post('backend/addModel.php',copy)
                   return
               }
             }
         }
-
 
     }
 

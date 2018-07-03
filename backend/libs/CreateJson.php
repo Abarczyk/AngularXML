@@ -62,7 +62,6 @@ function CreateModels(){
         }
     }
   }
-
   $models = json_encode($models, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
   fwrite($Json, $models);
   fclose($Json);

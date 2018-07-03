@@ -9,7 +9,7 @@
     </label>
 
     <label for="Categorie">Champs existants
-      <select ng-disabled = "!item.description" multiple name="fonction" ng-model = "item.champs" ng-options="chp.nom for chp in champs"></select>
+      <select multiple name="fonction" ng-model = "item.champs" ng-options="chp.nom for chp in champs"></select>
     </label>
 
     <input ng-click = "addFct(item)" ng-disabled = "!item.champs" class="push_button" type="submit" name="action" value="Ajouter">

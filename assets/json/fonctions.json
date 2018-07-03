@@ -1,81 +1,136 @@
 [
     {
-        "nom": "AddBlanc",
-        "description": "Ajouter des blancs sur les bords",
+        "nom": "Addblanc",
+        "description": "",
         "champs": [
-            "AddBlancUp",
-            "AddBlancDown",
-            "AddBlancLeft",
-            "AddBlancRight"
-        ]
-    },
-    {
-        "nom": "AddCropMarc",
-        "description": "Ajoute des lignes de coupe sur l'image",
-        "champs": [
-            "AddCropMarcUp_Left_Vertical",
-            "AddCropMarcUp_Left_Horizontal",
-            "AddCropMarcDown_Left_Horizontal",
-            "AddCropMarcDown_Left_Vertical",
-            "AddCropMarcUp_Right_Vertical",
-            "AddCropMarcUp_Right_Horizontal",
-            "AddCropMarcDown_Right_Vertical",
-            "AddCropMarcDown_Right_Horizontal"
-        ]
-    },
-    {
-        "nom": "addmirror",
-        "description": "Ajouter un mirroir",
-        "champs": [
-            "left",
-            "right",
-            "up",
-            "down"
-        ]
-    },
-    {
-        "nom": "coucou",
-        "description": "coucou",
-        "champs": [
-            "AddBlancLeft",
-            "AddBlancDown",
-            "AddBlancUp",
-            "AddBlancRight",
-            "AddCropMarcDown_Right_Horizontal",
-            "AddCropMarcDown_Right_Vertical",
-            "AddCropMarcDown_Left_Horizontal",
-            "AddCropMarcDown_Left_Vertical",
-            "AddCropMarcUp_Right_Horizontal",
-            "AddCropMarcUp_Right_Vertical",
-            "AddCropMarcUp_Left_Horizontal",
-            "AddCropMarcUp_Left_Vertical",
-            "angle",
-            "ConvertRVB",
-            "value",
-            "customerfirstname",
-            "customerlastname",
-            "right",
-            "left",
             "down",
-            "up",
-            "test_test"
+            "left",
+            "right",
+            "up"
         ]
     },
     {
-        "nom": "customerinfo",
-        "description": "Ajouter des informations utilisateur",
+        "nom": "AddCropLine",
+        "description": "",
         "champs": [
-            "customerfirstname",
-            "customerlastname",
-            "test_test"
+            "distance_du_bas"
         ]
     },
     {
-        "nom": "rotate",
-        "description": "Ajouter une rotation",
+        "nom": "AddCropMarksExt",
+        "description": "",
         "champs": [
-            "value",
-            "angle"
+            "left_down_horizontal",
+            "left_down_vertical",
+            "left_up_horizontal",
+            "left_up_vertical",
+            "right_down_horizontal",
+            "right_down_vertical",
+            "right_up_horizontal",
+            "right_up_vertical"
+        ]
+    },
+    {
+        "nom": "AddCropMarksInt",
+        "description": "",
+        "champs": [
+            "left_down_horizontal",
+            "left_down_vertical",
+            "left_up_horizontal",
+            "left_up_vertical",
+            "right_down_horizontal",
+            "right_down_vertical",
+            "right_up_horizontal",
+            "right_up_vertical"
+        ]
+    },
+    {
+        "nom": "AddFoldLine",
+        "description": "",
+        "champs": [
+            "distance_du_bas"
+        ]
+    },
+    {
+        "nom": "AddMachineLine",
+        "description": "",
+        "champs": [
+            "distance_du_bas"
+        ]
+    },
+    {
+        "nom": "AddText",
+        "description": "",
+        "champs": [
+            "distance_du_bord",
+            "down",
+            "left",
+            "right",
+            "up"
+        ]
+    },
+    {
+        "nom": "CheckResolution",
+        "description": "",
+        "champs": [
+            "max",
+            "min"
+        ]
+    },
+    {
+        "nom": "Dimensions",
+        "description": "",
+        "champs": [
+            "hauteur",
+            "largeur"
+        ]
+    },
+    {
+        "nom": "Enlarge",
+        "description": "",
+        "champs": [
+            "down",
+            "left",
+            "right",
+            "up"
+        ]
+    },
+    {
+        "nom": "Miroir",
+        "description": "",
+        "champs": [
+            "down",
+            "left",
+            "right",
+            "up"
+        ]
+    },
+    {
+        "nom": "NbPages",
+        "description": "",
+        "champs": [
+            "pages"
+        ]
+    },
+    {
+        "nom": "Preflight",
+        "description": "",
+        "champs": [
+            "value"
+        ]
+    },
+    {
+        "nom": "Rotation",
+        "description": "",
+        "champs": [
+            "rotation"
+        ]
+    },
+    {
+        "nom": "Template",
+        "description": "zone de saisie unique",
+        "champs": [
+            "value"
         ]
     }
 ]

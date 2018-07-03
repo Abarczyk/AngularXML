@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jul 02, 2018 at 02:52 PM
+-- Generation Time: Jul 03, 2018 at 09:55 AM
 -- Server version: 5.6.38
 -- PHP Version: 7.2.1
 
@@ -31,10 +31,11 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`id`, `nom`, `modeles`) VALUES
-(7, 'cat1', 'modele5555'),
-(8, 'cat2', ''),
-(10, 'RollUp', ''),
-(11, 'dzqfegrsdhtjyu', '');
+(12, 'RollUp', 'ModeleRollUp'),
+(13, 'Brochures', 'ModeleBrochures'),
+(14, 'Cartes de visite', 'ModeleCard'),
+(15, 'Affiches', 'ModeleAffiches'),
+(16, 'Flyers', 'ModeleFlyers');
 
 -- --------------------------------------------------------
 
@@ -48,7 +49,7 @@ CREATE TABLE `champs` (
   `typeinput` varchar(50) DEFAULT NULL,
   `unit` varchar(50) DEFAULT NULL,
   `name` varchar(50) DEFAULT NULL,
-  `valeur` varchar(2000) DEFAULT 'non',
+  `valeur` varchar(2000) DEFAULT 'false',
   `default_select` varchar(300) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -57,27 +58,28 @@ CREATE TABLE `champs` (
 --
 
 INSERT INTO `champs` (`id`, `nom`, `typeinput`, `unit`, `name`, `valeur`, `default_select`) VALUES
-(1, 'rotation à gauche', 'text', 'mm', 'left', 'non', NULL),
-(2, 'rotation à droite', 'text', 'mm', 'right', 'non', NULL),
-(3, 'rotation supérieure', 'text', 'mm', 'up', 'non', NULL),
-(4, 'rotation inférieure', 'text', 'mm', 'down', 'non', NULL),
-(5, 'longueur', 'text', 'mm', 'value', 'non', NULL),
-(6, 'angle', 'text', 'degrès', 'angle', 'non', NULL),
-(7, 'Nom', 'text', '', 'customerfirstname', 'non', NULL),
-(8, 'Prenom', 'text', '', 'customerlastname', 'non', NULL),
-(10, 'Ajouter blanc en haut', 'text', 'mm', 'AddBlancUp', 'non', NULL),
-(11, 'Ajouter blanc en bas', 'text', 'mm', 'AddBlancDown', 'non', NULL),
-(12, 'Ajouter blanc à gauche', 'text', 'mm', 'AddBlancLeft', 'non', NULL),
-(13, 'Ajouter un blanc à droite', 'text', 'mm', 'AddBlancRight', 'non', NULL),
-(14, 'Convertir en RVB', 'text', '', 'ConvertRVB', 'non', NULL),
-(15, 'Ajouter une ligne de coupe en haut à gauche (verticale)', 'text', 'mm', 'AddCropMarcUp_Left_Vertical', 'non', NULL),
-(16, 'Ajouter une ligne de coupe en haut à gauche (horizontale)', 'text', 'mm', 'AddCropMarcUp_Left_Horizontal', 'non', NULL),
-(17, 'Ajouter une ligne de coupe en bas à gauche (honrizontale)', 'text', 'mm', 'AddCropMarcDown_Left_Horizontal', 'non', NULL),
-(18, 'Ajouter une ligne de coupe en bas à gauche (verticale)', 'text', 'mm', 'AddCropMarcDown_Left_Vertical', 'non', NULL),
-(19, 'Ajouter une ligne de coupe en haut à droite (verticale)', 'text', 'mm', 'AddCropMarcUp_Right_Vertical', 'non', NULL),
-(20, 'Ajouter une ligne de coupe en haut à droite (horizontale)', 'text', 'mm', 'AddCropMarcUp_Right_Horizontal', 'non', NULL),
-(21, 'Ajouter une ligne de coupe en bas à droite (verticale)', 'text', 'mm', 'AddCropMarcDown_Right_Vertical', 'non', NULL),
-(22, 'Ajouter une ligne de coupe en bas à droite (horizontale)', 'text', 'mm', 'AddCropMarcDown_Right_Horizontal', 'non', NULL);
+(25, 'Valeur', 'text', '', 'value', 'false', ''),
+(27, 'Hauteur', 'text', 'mm', 'hauteur', 'false', ''),
+(28, 'Largeur', 'text', 'mm', 'largeur', 'false', ''),
+(29, 'Pages attendues', 'text', '', 'pages', '1', ''),
+(30, 'Rotation', 'select', 'degrès', 'rotation', 'false', '0,90,180,270'),
+(31, 'Left', 'text', 'mm', 'left', 'false', ''),
+(32, 'Right', 'text', 'mm', 'right', 'false', ''),
+(33, 'up', 'text', 'mm', 'up', 'false', ''),
+(34, 'down', 'text', 'mm', 'down', 'false', ''),
+(35, 'Left up horizontal', 'text', 'mm', 'left_up_horizontal', 'false', ''),
+(36, 'Right up horizontal', 'text', 'mm', 'right_up_horizontal', 'false', ''),
+(37, 'Left up vertical', 'text', 'mm', 'left_up_vertical', 'false', ''),
+(38, 'Left down horizontal', 'text', 'mm', 'left_down_horizontal', 'false', ''),
+(39, 'Left down vertical', 'text', 'mm', 'left_down_vertical', 'false', ''),
+(40, 'Right down vertical', 'text', 'mm', 'right_down_vertical', 'false', ''),
+(41, 'Right down horizontal', 'text', 'mm', 'right_down_horizontal', 'false', ''),
+(42, 'Right up vertical', 'text', 'mm', 'right_up_vertical', 'false', ''),
+(43, 'Min', 'text', '', 'min', '1', ''),
+(44, 'Max', 'text', '', 'max', '1', ''),
+(45, 'Distance du bas', 'text', 'mm', 'distance_du_bas', 'false', ''),
+(46, 'Position', 'select', 'mm', 'position', 'false', 'Up,Down,Left,Right'),
+(47, 'Distance du bord', 'text', 'mm', 'distance_du_bord', 'false', '');
 
 -- --------------------------------------------------------
 
@@ -97,12 +99,21 @@ CREATE TABLE `fonctions` (
 --
 
 INSERT INTO `fonctions` (`id`, `nom`, `description`, `champs`) VALUES
-(1, 'addmirror', 'Ajouter un mirroir', 'left,right,up,down'),
-(2, 'rotate', 'Ajouter une rotation', 'value,angle'),
-(3, 'customerinfo', 'Ajouter des informations utilisateur', 'customerfirstname,customerlastname,test_test'),
-(9, 'AddBlanc', 'Ajouter des blancs sur les bords', 'AddBlancUp,AddBlancDown,AddBlancLeft,AddBlancRight'),
-(10, 'AddCropMarc', 'Ajoute des lignes de coupe sur l\'image', 'AddCropMarcUp_Left_Vertical,AddCropMarcUp_Left_Horizontal,AddCropMarcDown_Left_Horizontal,AddCropMarcDown_Left_Vertical,AddCropMarcUp_Right_Vertical,AddCropMarcUp_Right_Horizontal,AddCropMarcDown_Right_Vertical,AddCropMarcDown_Right_Horizontal'),
-(13, 'coucou', 'coucou', 'AddBlancLeft,AddBlancDown,AddBlancUp,AddBlancRight,AddCropMarcDown_Right_Horizontal,AddCropMarcDown_Right_Vertical,AddCropMarcDown_Left_Horizontal,AddCropMarcDown_Left_Vertical,AddCropMarcUp_Right_Horizontal,AddCropMarcUp_Right_Vertical,AddCropMarcUp_Left_Horizontal,AddCropMarcUp_Left_Vertical,angle,ConvertRVB,value,customerfirstname,customerlastname,right,left,down,up,test_test');
+(14, 'Preflight', '', 'value'),
+(15, 'Template', 'zone de saisie unique', 'value'),
+(16, 'Rotation', '', 'rotation'),
+(17, 'Dimensions', '', 'hauteur,largeur'),
+(18, 'NbPages', '', 'pages'),
+(19, 'Miroir', '', 'down,left,right,up'),
+(20, 'Addblanc', '', 'down,left,right,up'),
+(21, 'AddCropMarksInt', '', 'left_down_horizontal,left_down_vertical,left_up_horizontal,left_up_vertical,right_down_horizontal,right_down_vertical,right_up_horizontal,right_up_vertical'),
+(22, 'AddCropMarksExt', '', 'left_down_horizontal,left_down_vertical,left_up_horizontal,left_up_vertical,right_down_horizontal,right_down_vertical,right_up_horizontal,right_up_vertical'),
+(23, 'CheckResolution', '', 'max,min'),
+(24, 'AddFoldLine', '', 'distance_du_bas'),
+(25, 'AddMachineLine', '', 'distance_du_bas'),
+(26, 'AddCropLine', '', 'distance_du_bas'),
+(27, 'AddText', '', 'distance_du_bord,down,left,right,up'),
+(28, 'Enlarge', '', 'down,left,right,up');
 
 -- --------------------------------------------------------
 
@@ -122,7 +133,11 @@ CREATE TABLE `modeles` (
 --
 
 INSERT INTO `modeles` (`id`, `nom`, `description`, `fct`) VALUES
-(38, 'modele5555', 'aefrzthry', 'AddBlanc,AddCropMarc,addmirror');
+(40, 'ModeleBrochures', 'Modèle typique pour les brochures', 'Addblanc,CheckResolution,Dimensions,Preflight,Rotation'),
+(42, 'ModeleCard', 'Modèle typique des cartes de visite', 'AddText,CheckResolution,Dimensions,Template'),
+(43, 'ModeleAffiches', 'Modèle typique des affiches', 'Addblanc,AddCropLine,AddCropMarksExt,AddCropMarksInt,AddFoldLine,AddMachineLine,CheckResolution,Dimensions,Miroir,NbPages,Preflight,Rotation,Template'),
+(44, 'ModeleRollUp', 'Modèle typique des RollUp', 'Addblanc,AddCropLine,AddCropMarksExt,AddCropMarksInt,AddFoldLine,AddMachineLine,AddText,CheckResolution,Dimensions,Miroir,Preflight,Rotation'),
+(45, 'ModeleFlyers', 'Modèle typique des Flyers', 'AddText,CheckResolution,Dimensions,Rotation,Template');
 
 --
 -- Indexes for dumped tables
@@ -160,22 +175,22 @@ ALTER TABLE `modeles`
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `champs`
 --
 ALTER TABLE `champs`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
 
 --
 -- AUTO_INCREMENT for table `fonctions`
 --
 ALTER TABLE `fonctions`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 
 --
 -- AUTO_INCREMENT for table `modeles`
 --
 ALTER TABLE `modeles`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=59;

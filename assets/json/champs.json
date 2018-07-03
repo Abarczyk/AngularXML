@@ -1,210 +1,226 @@
 [
     {
-        "nom": "Ajouter blanc à gauche",
+        "nom": "Distance du bas",
         "typeinput": "text",
         "unit": "mm",
-        "name": "AddBlancLeft",
-        "valeur": "non",
+        "name": "distance_du_bas",
+        "valeur": "false",
         "default_select": [
             ""
         ]
     },
     {
-        "nom": "Ajouter blanc en bas",
+        "nom": "Distance du bord",
         "typeinput": "text",
         "unit": "mm",
-        "name": "AddBlancDown",
-        "valeur": "non",
+        "name": "distance_du_bord",
+        "valeur": "false",
         "default_select": [
             ""
         ]
     },
     {
-        "nom": "Ajouter blanc en haut",
-        "typeinput": "text",
-        "unit": "mm",
-        "name": "AddBlancUp",
-        "valeur": "non",
-        "default_select": [
-            ""
-        ]
-    },
-    {
-        "nom": "Ajouter un blanc à droite",
-        "typeinput": "text",
-        "unit": "mm",
-        "name": "AddBlancRight",
-        "valeur": "non",
-        "default_select": [
-            ""
-        ]
-    },
-    {
-        "nom": "Ajouter une ligne de coupe en bas à droite (horizontale)",
-        "typeinput": "text",
-        "unit": "mm",
-        "name": "AddCropMarcDown_Right_Horizontal",
-        "valeur": "non",
-        "default_select": [
-            ""
-        ]
-    },
-    {
-        "nom": "Ajouter une ligne de coupe en bas à droite (verticale)",
-        "typeinput": "text",
-        "unit": "mm",
-        "name": "AddCropMarcDown_Right_Vertical",
-        "valeur": "non",
-        "default_select": [
-            ""
-        ]
-    },
-    {
-        "nom": "Ajouter une ligne de coupe en bas à gauche (honrizontale)",
-        "typeinput": "text",
-        "unit": "mm",
-        "name": "AddCropMarcDown_Left_Horizontal",
-        "valeur": "non",
-        "default_select": [
-            ""
-        ]
-    },
-    {
-        "nom": "Ajouter une ligne de coupe en bas à gauche (verticale)",
-        "typeinput": "text",
-        "unit": "mm",
-        "name": "AddCropMarcDown_Left_Vertical",
-        "valeur": "non",
-        "default_select": [
-            ""
-        ]
-    },
-    {
-        "nom": "Ajouter une ligne de coupe en haut à droite (horizontale)",
-        "typeinput": "text",
-        "unit": "mm",
-        "name": "AddCropMarcUp_Right_Horizontal",
-        "valeur": "non",
-        "default_select": [
-            ""
-        ]
-    },
-    {
-        "nom": "Ajouter une ligne de coupe en haut à droite (verticale)",
-        "typeinput": "text",
-        "unit": "mm",
-        "name": "AddCropMarcUp_Right_Vertical",
-        "valeur": "non",
-        "default_select": [
-            ""
-        ]
-    },
-    {
-        "nom": "Ajouter une ligne de coupe en haut à gauche (horizontale)",
-        "typeinput": "text",
-        "unit": "mm",
-        "name": "AddCropMarcUp_Left_Horizontal",
-        "valeur": "non",
-        "default_select": [
-            ""
-        ]
-    },
-    {
-        "nom": "Ajouter une ligne de coupe en haut à gauche (verticale)",
-        "typeinput": "text",
-        "unit": "mm",
-        "name": "AddCropMarcUp_Left_Vertical",
-        "valeur": "non",
-        "default_select": [
-            ""
-        ]
-    },
-    {
-        "nom": "angle",
-        "typeinput": "text",
-        "unit": "degrès",
-        "name": "angle",
-        "valeur": "non",
-        "default_select": [
-            ""
-        ]
-    },
-    {
-        "nom": "Convertir en RVB",
-        "typeinput": "text",
-        "unit": "",
-        "name": "ConvertRVB",
-        "valeur": "non",
-        "default_select": [
-            ""
-        ]
-    },
-    {
-        "nom": "longueur",
-        "typeinput": "text",
-        "unit": "mm",
-        "name": "value",
-        "valeur": "non",
-        "default_select": [
-            ""
-        ]
-    },
-    {
-        "nom": "Nom",
-        "typeinput": "text",
-        "unit": "",
-        "name": "customerfirstname",
-        "valeur": "non",
-        "default_select": [
-            ""
-        ]
-    },
-    {
-        "nom": "Prenom",
-        "typeinput": "text",
-        "unit": "",
-        "name": "customerlastname",
-        "valeur": "non",
-        "default_select": [
-            ""
-        ]
-    },
-    {
-        "nom": "rotation à droite",
-        "typeinput": "text",
-        "unit": "mm",
-        "name": "right",
-        "valeur": "non",
-        "default_select": [
-            ""
-        ]
-    },
-    {
-        "nom": "rotation à gauche",
-        "typeinput": "text",
-        "unit": "mm",
-        "name": "left",
-        "valeur": "non",
-        "default_select": [
-            ""
-        ]
-    },
-    {
-        "nom": "rotation inférieure",
+        "nom": "down",
         "typeinput": "text",
         "unit": "mm",
         "name": "down",
-        "valeur": "non",
+        "valeur": "false",
         "default_select": [
             ""
         ]
     },
     {
-        "nom": "rotation supérieure",
+        "nom": "Hauteur",
+        "typeinput": "text",
+        "unit": "mm",
+        "name": "hauteur",
+        "valeur": "false",
+        "default_select": [
+            ""
+        ]
+    },
+    {
+        "nom": "Largeur",
+        "typeinput": "text",
+        "unit": "mm",
+        "name": "largeur",
+        "valeur": "false",
+        "default_select": [
+            ""
+        ]
+    },
+    {
+        "nom": "Left",
+        "typeinput": "text",
+        "unit": "mm",
+        "name": "left",
+        "valeur": "false",
+        "default_select": [
+            ""
+        ]
+    },
+    {
+        "nom": "Left down horizontal",
+        "typeinput": "text",
+        "unit": "mm",
+        "name": "left_down_horizontal",
+        "valeur": "false",
+        "default_select": [
+            ""
+        ]
+    },
+    {
+        "nom": "Left down vertical",
+        "typeinput": "text",
+        "unit": "mm",
+        "name": "left_down_vertical",
+        "valeur": "false",
+        "default_select": [
+            ""
+        ]
+    },
+    {
+        "nom": "Left up horizontal",
+        "typeinput": "text",
+        "unit": "mm",
+        "name": "left_up_horizontal",
+        "valeur": "false",
+        "default_select": [
+            ""
+        ]
+    },
+    {
+        "nom": "Left up vertical",
+        "typeinput": "text",
+        "unit": "mm",
+        "name": "left_up_vertical",
+        "valeur": "false",
+        "default_select": [
+            ""
+        ]
+    },
+    {
+        "nom": "Max",
+        "typeinput": "text",
+        "unit": "",
+        "name": "max",
+        "valeur": "1",
+        "default_select": [
+            ""
+        ]
+    },
+    {
+        "nom": "Min",
+        "typeinput": "text",
+        "unit": "",
+        "name": "min",
+        "valeur": "1",
+        "default_select": [
+            ""
+        ]
+    },
+    {
+        "nom": "Pages attendues",
+        "typeinput": "text",
+        "unit": "",
+        "name": "pages",
+        "valeur": "1",
+        "default_select": [
+            ""
+        ]
+    },
+    {
+        "nom": "Position",
+        "typeinput": "select",
+        "unit": "mm",
+        "name": "position",
+        "valeur": "false",
+        "default_select": [
+            "Up",
+            "Down",
+            "Left",
+            "Right"
+        ]
+    },
+    {
+        "nom": "Right",
+        "typeinput": "text",
+        "unit": "mm",
+        "name": "right",
+        "valeur": "false",
+        "default_select": [
+            ""
+        ]
+    },
+    {
+        "nom": "Right down horizontal",
+        "typeinput": "text",
+        "unit": "mm",
+        "name": "right_down_horizontal",
+        "valeur": "false",
+        "default_select": [
+            ""
+        ]
+    },
+    {
+        "nom": "Right down vertical",
+        "typeinput": "text",
+        "unit": "mm",
+        "name": "right_down_vertical",
+        "valeur": "false",
+        "default_select": [
+            ""
+        ]
+    },
+    {
+        "nom": "Right up horizontal",
+        "typeinput": "text",
+        "unit": "mm",
+        "name": "right_up_horizontal",
+        "valeur": "false",
+        "default_select": [
+            ""
+        ]
+    },
+    {
+        "nom": "Right up vertical",
+        "typeinput": "text",
+        "unit": "mm",
+        "name": "right_up_vertical",
+        "valeur": "false",
+        "default_select": [
+            ""
+        ]
+    },
+    {
+        "nom": "Rotation",
+        "typeinput": "select",
+        "unit": "degrès",
+        "name": "rotation",
+        "valeur": "false",
+        "default_select": [
+            "0",
+            "90",
+            "180",
+            "270"
+        ]
+    },
+    {
+        "nom": "up",
         "typeinput": "text",
         "unit": "mm",
         "name": "up",
-        "valeur": "non",
+        "valeur": "false",
+        "default_select": [
+            ""
+        ]
+    },
+    {
+        "nom": "Valeur",
+        "typeinput": "text",
+        "unit": "",
+        "name": "value",
+        "valeur": "false",
         "default_select": [
             ""
         ]
