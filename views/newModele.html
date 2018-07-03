@@ -1,7 +1,9 @@
-
+<div >
+  <input type="text" ng-model = "query" placeholder="Rechercher">
+</div>
     <div class="categorie" ng-repeat="category in librairie" >
     <h1 class="title">{{category.nom}}</h1>
-    <div class="Models" ng-repeat="model in category.modeles" ng-if = 'category.modeles.length > 0' >
+    <div class="Models" ng-repeat="model in category.modeles | filter: query" ng-if = 'category.modeles.length > 0' >
 
       <div class="item">
         <div class="item__name">
