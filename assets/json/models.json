@@ -1237,5 +1237,54 @@
                 }
             ]
         ]
+    },
+    {
+        "nom": "ModèleTest",
+        "description": "ceci est un test",
+        "fct": [
+            [
+                {
+                    "nom": "Addblanc",
+                    "champs": [
+                        [
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "false"
+                            }
+                        ],
+                        [
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "false"
+                            }
+                        ],
+                        [
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "false"
+                            }
+                        ],
+                        [
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "false"
+                            }
+                        ]
+                    ]
+                }
+            ]
+        ]
     }
 ]

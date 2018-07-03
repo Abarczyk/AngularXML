@@ -2,7 +2,8 @@
     {
         "nom": "Affiches",
         "modeles": [
-            "ModeleAffiches"
+            "ModeleAffiches",
+            "ModèleTest"
         ]
     },
     {
