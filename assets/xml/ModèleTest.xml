@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Infos_Modele nom="ModèleTest" description="ceci est un test"/>
-<Addblanc>
-  <down>5</down>
-  <left>4</left>
-  <right>3</right>
-  <up>65</up>
-</Addblanc>

@@ -37,7 +37,7 @@ function CreateChamps(){
   // création du Json
   $Tabmodels = [];
   $Json = fopen('../assets/json/champs.json', 'w+');
-  $champs = selectbdd('nom,typeinput,unit,name,valeur,default_select','champs');
+  $champs = selectbdd('nom,typeinput,unit,name,valeur,default_select','champs',"modele like '' " );
 
   for ($i=0; $i < count($champs); $i++) {
     $champs[$i]['default_select'] = explode(',',$champs[$i]['default_select']);
@@ -122,7 +122,8 @@ function createLibrairie(){
                 $categories[$p]['modeles'][$j]['fct'][$k]['champs'][$l] contient le nom du fonction en case l
                 on recherche toutes les informations liées à ce nom dans la table champs et on remplace le nom par toutes les données
               */
-              $aux = selectbdd('nom,typeinput,name,unit,valeur,default_select','champs',"name like '" . $categories[$p]['modeles'][$j]['fct'][$k]['champs'][$l] ."'");
+              var_dump($categories[$p]['modeles'][$j]);
+              $aux = selectbdd('nom,modele,typeinput,name,unit,valeur,default_select','champs',"name like '" . $categories[$p]['modeles'][$j]['fct'][$k]['champs'][$l] ."' and modele like'" . $categories[$p]['modeles'][$j]['nom'] . "'");
               $aux[0]['default_select'] = explode(',',$aux[0]['default_select']);
               $categories[$p]['modeles'][$j]['fct'][$k]['champs'][$l] = $aux[0];
 

@@ -6,16 +6,29 @@ body, html{
     padding: 0;
     width: 100%;
     height: 100%;
-    text-align: center;
 }
 
 body{
     font-family: sans-serif;
     line-height: 1.4;
     display: grid;
-    grid-template-columns: 1fr 3fr  ;
+    grid-template-rows: 1fr 1fr 4fr;
 }
 
+#main{
+
+}
+
+#SideBar{
+
+}
+
+#head{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  background-color: white;
+}
 a{
     text-decoration: none;
     width: 100%;
@@ -59,7 +72,6 @@ input[type=submit] {
 .title {
     color: #333;
     display: inline-block;
-    padding: 1em;
     text-decoration: none;
     border-bottom: 2px solid #fff;
     -moz-transition: all .2s linear 0s;
@@ -70,38 +82,10 @@ input[type=submit] {
     text-align: center;
 }
 .title:hover {
-    color: #34B484;
+    color: #3463b4;
 }
 
-/****************************************************
- *      SideBar
- *****************************************************/
-nav {
-    display: grid;
-    grid-template-rows: repeat(1fr,6);
-    height: 100%;
-    width: 160px;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-}
-nav a {
-    line-height: 50px;
-    border-bottom: solid 1px #D94E3B;
 
-    -moz-transition: all .2s linear 0s;
-    -webkit-transition: all .2s linear 0s;
-    -o-transition: all .2s linear 0s;
-      color: rgb(0, 0, 0);
-      text-decoration: none;
-      font-size: 20px;
-      display: block;
-}
-nav a:hover{
-    color: #34B484;
-}
 
 /****************************************************
  *      Bouton poussoir
@@ -115,20 +99,20 @@ nav a:hover{
     margin:0 auto;
     border-radius:5px;
     border:solid 1px #D94E3B;
-    background:#cb3b27;
+    background: rgb(53, 82, 148);
     text-align:center;
     padding:20px 30px;
     -webkit-transition: all 0.1s;
     -moz-transition: all 0.1s;
     transition: all 0.1s;
-    -webkit-box-shadow: 0px 9px 0px #84261a;
-    -moz-box-shadow: 0px 9px 0px #84261a;
-    box-shadow: 0px 9px 0px #84261a;
+    -webkit-box-shadow: 0px 9px 0px #1a5b85;
+    -moz-box-shadow: 0px 9px 0px #1a5b85;
+    box-shadow: 0px 9px 0px #1a5b85;
 }
 .push_button:active{
-    -webkit-box-shadow: 0px 2px 0px #84261a;
-    -moz-box-shadow: 0px 2px 0px #84261a;
-    box-shadow: 0px 2px 0px #84261a;
+    -webkit-box-shadow: 0px 2px 0px #043886;
+    -moz-box-shadow: 0px 2px 0px #043886;
+    box-shadow: 0px 2px 0px #043886;
     position:relative;
     top:7px;
 }
@@ -158,4 +142,42 @@ label{
 }
 .content label input, .content label select {
     width: 100%;
+}
+
+
+/****************************************************
+ *      Modèles
+ *****************************************************/
+
+ .modal-content{
+   text-align: center;
+ }
+
+ input[type=checkbox]{
+   display: none;
+ }
+ .actions{
+   text-align: center;
+   display: grid;
+   grid-gap: 10px;
+   grid-template-columns: 1fr 1fr 1fr;
+ }
+
+ .categorie{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+
+ .item{
+   width: 100%;
+ }
+
+ .circle{
+    margin:10px;
+    width:100px;
+    background: rgba(18, 81, 147, 0.7);
+    height:100px;
+    text-align:center;
+    border-radius:100px;
+    line-height: 50px;
 }

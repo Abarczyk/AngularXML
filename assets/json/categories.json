@@ -2,32 +2,31 @@
     {
         "nom": "Affiches",
         "modeles": [
-            "ModeleAffiches",
-            "ModèleTest"
+            "51381"
         ]
     },
     {
         "nom": "Brochures",
         "modeles": [
-            "ModeleBrochures"
+            ""
         ]
     },
     {
         "nom": "Cartes de visite",
         "modeles": [
-            "ModeleCard"
+            "39169"
         ]
     },
     {
         "nom": "Flyers",
         "modeles": [
-            "ModeleFlyers"
+            ""
         ]
     },
     {
         "nom": "RollUp",
         "modeles": [
-            "ModeleRollUp"
+            ""
         ]
     }
 ]

@@ -1,4 +1,6 @@
 <?php
+
+include "libs/modele.php";
 $Tab = json_decode($_POST['json']);
 /*
   creation du nom : NOM_ANNEE_MOIS_JOUR_HEURE_MINUTE_SECONDE.xml
@@ -22,32 +24,44 @@ $xml_doc = new DOMDocument('1.0', 'utf-8');
 $xml_doc->appendChild($info_Modele = $xml_doc->createElement('Infos_Modele'));
 $info_Modele->setAttribute('nom',$Tab->nom);
 $info_Modele->setAttribute('description',$Tab->description);
-
+$strTrue = "";
 foreach ($Tab->fct as $value) {
-  echo "<pre> fonction : ";
-  var_dump($value);
-  echo "<pre>";
+  $strTrue .= "'" . $value->nom . "'" . ' and nom not like ';
   /*
     on a acces à un objet contenant :
     - nom             (nom de la fonction)
     - champs          (tableau de sous champs de la fonction)
   */
   $xml_doc->appendChild($fct = $xml_doc->createElement($value->nom));
+  /*
+    on a acces à un objet contenant :
+    - nom           (affiché sur le web)
+    - name          (nom technique du champ)
+    - unit          (unité du champ)
+    - typeinput     (type de l'input web)
+    - valeur        (valeur remplie par l'utilisateur - non par defaut - )
+  */
+
   foreach ($value->champs as $key) {
-    echo "<pre> champs : ";
-    var_dump($key);
-    echo "<pre>";
-    /*
-      on a acces à un objet contenant :
-      - nom           (affiché sur le web)
-      - name          (nom technique du champ)
-      - unit          (unité du champ)
-      - typeinput     (type de l'input web)
-      - valeur        (valeur remplie par l'utilisateur - non par defaut - )
-    */
-    $fct->appendChild($xml_doc->createElement($key->name,$key->valeur));
+    if ($key->valeur == "false") {
+      $fct->appendChild($chp = $xml_doc->createElement($key->name,'false'));
+      $chp->setAttribute('value',$key->valeur);
+    }else {
+      $fct->appendChild($chp = $xml_doc->createElement($key->name,'true'));
+      $chp->setAttribute('value',$key->valeur);
+      updatebdd('champs', "valeur = '" . $key->valeur . "'", "WHERE name like '" . $key->name . "' and modele like '" . $Tab->nom . "'");
+    }
   }
 }
+$strTrue = substr($strTrue, 0, -17);
+$query = selectbdd('*','fonctions',"nom not like $strTrue ");
+for ($i=0; $i < count($query); $i++) {
+  $xml_doc->appendChild($fct = $xml_doc->createElement($query[$i]['nom'],'false'));
+}
+
+/*
+  on met toutes les autres fonctions à false
+*/
 
 /*
   auto indentation du xml (plus lisible)
@@ -57,7 +71,6 @@ $xml_doc->formatOutput = TRUE;
   on sauvegarde l'xml sous forme d'une chaine de caractère
 */
 $xml_string = $xml_doc->saveXML();
-
 /*
   on écrit dans le fichier
 */

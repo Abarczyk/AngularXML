@@ -31,6 +31,6 @@ config(['$routeProvider', function($routeProvider) {
    }).
 
    otherwise({
-      redirectTo: '/accueil'
+      redirectTo: '/newModele'
    })
 }])

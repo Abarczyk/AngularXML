@@ -47,9 +47,8 @@ function newFonction($name,$description,$champs){
     return SQLInsert($SQL);
 }
 
-function newChamps($name,$nom,$typeinput,$unit,$valeur,$default_select){
-
-    $SQL = "INSERT INTO champs(name,nom,typeinput,unit,valeur,default_select) VALUES('$name','$nom','$typeinput','$unit','$valeur','$default_select')";
+function newChamps($name,$modele,$nom,$typeinput,$unit,$valeur,$default_select){
+    $SQL = "INSERT INTO champs(name,modele,nom,typeinput,unit,valeur,default_select) VALUES('$name','$modele','$nom','$typeinput','$unit','$valeur','$default_select')";
     return SQLInsert($SQL);
 }
 

@@ -1,7 +1,7 @@
 [
     {
-        "nom": "ModeleAffiches",
-        "description": "Modèle typique des affiches",
+        "nom": "39169",
+        "description": "choco",
         "fct": [
             [
                 {
@@ -14,6 +14,41 @@
                                 "name": "down",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "4684"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "4684"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "4684"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "4684"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "56565665"
                             }
                         ],
                         [
@@ -23,6 +58,41 @@
                                 "name": "left",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "486"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "486"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "486"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "486"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ],
                         [
@@ -32,6 +102,41 @@
                                 "name": "right",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "468"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "468"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "468"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "468"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "6"
                             }
                         ],
                         [
@@ -41,6 +146,41 @@
                                 "name": "up",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "46"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "46"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "46"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "46"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ]
                     ]
@@ -57,6 +197,41 @@
                                 "name": "distance_du_bas",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "468684"
+                            },
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "468684"
+                            },
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "468684"
+                            },
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "89"
+                            },
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "89"
                             }
                         ]
                     ]
@@ -73,6 +248,34 @@
                                 "name": "left_down_horizontal",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Left down horizontal",
+                                "typeinput": "text",
+                                "name": "left_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "5"
+                            },
+                            {
+                                "nom": "Left down horizontal",
+                                "typeinput": "text",
+                                "name": "left_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "5"
+                            },
+                            {
+                                "nom": "Left down horizontal",
+                                "typeinput": "text",
+                                "name": "left_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "56"
+                            },
+                            {
+                                "nom": "Left down horizontal",
+                                "typeinput": "text",
+                                "name": "left_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ],
                         [
@@ -82,6 +285,34 @@
                                 "name": "left_down_vertical",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Left down vertical",
+                                "typeinput": "text",
+                                "name": "left_down_vertical",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Left down vertical",
+                                "typeinput": "text",
+                                "name": "left_down_vertical",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Left down vertical",
+                                "typeinput": "text",
+                                "name": "left_down_vertical",
+                                "unit": "mm",
+                                "valeur": "56"
+                            },
+                            {
+                                "nom": "Left down vertical",
+                                "typeinput": "text",
+                                "name": "left_down_vertical",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ],
                         [
@@ -91,6 +322,34 @@
                                 "name": "left_up_horizontal",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Left up horizontal",
+                                "typeinput": "text",
+                                "name": "left_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "64"
+                            },
+                            {
+                                "nom": "Left up horizontal",
+                                "typeinput": "text",
+                                "name": "left_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "64"
+                            },
+                            {
+                                "nom": "Left up horizontal",
+                                "typeinput": "text",
+                                "name": "left_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "56"
+                            },
+                            {
+                                "nom": "Left up horizontal",
+                                "typeinput": "text",
+                                "name": "left_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ],
                         [
@@ -100,6 +359,34 @@
                                 "name": "left_up_vertical",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Left up vertical",
+                                "typeinput": "text",
+                                "name": "left_up_vertical",
+                                "unit": "mm",
+                                "valeur": "5345"
+                            },
+                            {
+                                "nom": "Left up vertical",
+                                "typeinput": "text",
+                                "name": "left_up_vertical",
+                                "unit": "mm",
+                                "valeur": "5345"
+                            },
+                            {
+                                "nom": "Left up vertical",
+                                "typeinput": "text",
+                                "name": "left_up_vertical",
+                                "unit": "mm",
+                                "valeur": "56"
+                            },
+                            {
+                                "nom": "Left up vertical",
+                                "typeinput": "text",
+                                "name": "left_up_vertical",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ],
                         [
@@ -109,6 +396,34 @@
                                 "name": "right_down_horizontal",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Right down horizontal",
+                                "typeinput": "text",
+                                "name": "right_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Right down horizontal",
+                                "typeinput": "text",
+                                "name": "right_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Right down horizontal",
+                                "typeinput": "text",
+                                "name": "right_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "5656"
+                            },
+                            {
+                                "nom": "Right down horizontal",
+                                "typeinput": "text",
+                                "name": "right_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "5656"
                             }
                         ],
                         [
@@ -118,6 +433,34 @@
                                 "name": "right_down_vertical",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Right down vertical",
+                                "typeinput": "text",
+                                "name": "right_down_vertical",
+                                "unit": "mm",
+                                "valeur": "35"
+                            },
+                            {
+                                "nom": "Right down vertical",
+                                "typeinput": "text",
+                                "name": "right_down_vertical",
+                                "unit": "mm",
+                                "valeur": "35"
+                            },
+                            {
+                                "nom": "Right down vertical",
+                                "typeinput": "text",
+                                "name": "right_down_vertical",
+                                "unit": "mm",
+                                "valeur": "6"
+                            },
+                            {
+                                "nom": "Right down vertical",
+                                "typeinput": "text",
+                                "name": "right_down_vertical",
+                                "unit": "mm",
+                                "valeur": "6"
                             }
                         ],
                         [
@@ -127,6 +470,34 @@
                                 "name": "right_up_horizontal",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Right up horizontal",
+                                "typeinput": "text",
+                                "name": "right_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Right up horizontal",
+                                "typeinput": "text",
+                                "name": "right_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Right up horizontal",
+                                "typeinput": "text",
+                                "name": "right_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "55"
+                            },
+                            {
+                                "nom": "Right up horizontal",
+                                "typeinput": "text",
+                                "name": "right_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "55"
                             }
                         ],
                         [
@@ -136,6 +507,34 @@
                                 "name": "right_up_vertical",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Right up vertical",
+                                "typeinput": "text",
+                                "name": "right_up_vertical",
+                                "unit": "mm",
+                                "valeur": "864"
+                            },
+                            {
+                                "nom": "Right up vertical",
+                                "typeinput": "text",
+                                "name": "right_up_vertical",
+                                "unit": "mm",
+                                "valeur": "864"
+                            },
+                            {
+                                "nom": "Right up vertical",
+                                "typeinput": "text",
+                                "name": "right_up_vertical",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Right up vertical",
+                                "typeinput": "text",
+                                "name": "right_up_vertical",
+                                "unit": "mm",
+                                "valeur": "4"
                             }
                         ]
                     ]
@@ -152,6 +551,34 @@
                                 "name": "left_down_horizontal",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Left down horizontal",
+                                "typeinput": "text",
+                                "name": "left_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "5"
+                            },
+                            {
+                                "nom": "Left down horizontal",
+                                "typeinput": "text",
+                                "name": "left_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "5"
+                            },
+                            {
+                                "nom": "Left down horizontal",
+                                "typeinput": "text",
+                                "name": "left_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "56"
+                            },
+                            {
+                                "nom": "Left down horizontal",
+                                "typeinput": "text",
+                                "name": "left_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ],
                         [
@@ -161,6 +588,34 @@
                                 "name": "left_down_vertical",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Left down vertical",
+                                "typeinput": "text",
+                                "name": "left_down_vertical",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Left down vertical",
+                                "typeinput": "text",
+                                "name": "left_down_vertical",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Left down vertical",
+                                "typeinput": "text",
+                                "name": "left_down_vertical",
+                                "unit": "mm",
+                                "valeur": "56"
+                            },
+                            {
+                                "nom": "Left down vertical",
+                                "typeinput": "text",
+                                "name": "left_down_vertical",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ],
                         [
@@ -170,6 +625,34 @@
                                 "name": "left_up_horizontal",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Left up horizontal",
+                                "typeinput": "text",
+                                "name": "left_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "64"
+                            },
+                            {
+                                "nom": "Left up horizontal",
+                                "typeinput": "text",
+                                "name": "left_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "64"
+                            },
+                            {
+                                "nom": "Left up horizontal",
+                                "typeinput": "text",
+                                "name": "left_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "56"
+                            },
+                            {
+                                "nom": "Left up horizontal",
+                                "typeinput": "text",
+                                "name": "left_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ],
                         [
@@ -179,6 +662,34 @@
                                 "name": "left_up_vertical",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Left up vertical",
+                                "typeinput": "text",
+                                "name": "left_up_vertical",
+                                "unit": "mm",
+                                "valeur": "5345"
+                            },
+                            {
+                                "nom": "Left up vertical",
+                                "typeinput": "text",
+                                "name": "left_up_vertical",
+                                "unit": "mm",
+                                "valeur": "5345"
+                            },
+                            {
+                                "nom": "Left up vertical",
+                                "typeinput": "text",
+                                "name": "left_up_vertical",
+                                "unit": "mm",
+                                "valeur": "56"
+                            },
+                            {
+                                "nom": "Left up vertical",
+                                "typeinput": "text",
+                                "name": "left_up_vertical",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ],
                         [
@@ -188,6 +699,34 @@
                                 "name": "right_down_horizontal",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Right down horizontal",
+                                "typeinput": "text",
+                                "name": "right_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Right down horizontal",
+                                "typeinput": "text",
+                                "name": "right_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Right down horizontal",
+                                "typeinput": "text",
+                                "name": "right_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "5656"
+                            },
+                            {
+                                "nom": "Right down horizontal",
+                                "typeinput": "text",
+                                "name": "right_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "5656"
                             }
                         ],
                         [
@@ -197,6 +736,34 @@
                                 "name": "right_down_vertical",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Right down vertical",
+                                "typeinput": "text",
+                                "name": "right_down_vertical",
+                                "unit": "mm",
+                                "valeur": "35"
+                            },
+                            {
+                                "nom": "Right down vertical",
+                                "typeinput": "text",
+                                "name": "right_down_vertical",
+                                "unit": "mm",
+                                "valeur": "35"
+                            },
+                            {
+                                "nom": "Right down vertical",
+                                "typeinput": "text",
+                                "name": "right_down_vertical",
+                                "unit": "mm",
+                                "valeur": "6"
+                            },
+                            {
+                                "nom": "Right down vertical",
+                                "typeinput": "text",
+                                "name": "right_down_vertical",
+                                "unit": "mm",
+                                "valeur": "6"
                             }
                         ],
                         [
@@ -206,6 +773,34 @@
                                 "name": "right_up_horizontal",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Right up horizontal",
+                                "typeinput": "text",
+                                "name": "right_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Right up horizontal",
+                                "typeinput": "text",
+                                "name": "right_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Right up horizontal",
+                                "typeinput": "text",
+                                "name": "right_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "55"
+                            },
+                            {
+                                "nom": "Right up horizontal",
+                                "typeinput": "text",
+                                "name": "right_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "55"
                             }
                         ],
                         [
@@ -215,6 +810,34 @@
                                 "name": "right_up_vertical",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Right up vertical",
+                                "typeinput": "text",
+                                "name": "right_up_vertical",
+                                "unit": "mm",
+                                "valeur": "864"
+                            },
+                            {
+                                "nom": "Right up vertical",
+                                "typeinput": "text",
+                                "name": "right_up_vertical",
+                                "unit": "mm",
+                                "valeur": "864"
+                            },
+                            {
+                                "nom": "Right up vertical",
+                                "typeinput": "text",
+                                "name": "right_up_vertical",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Right up vertical",
+                                "typeinput": "text",
+                                "name": "right_up_vertical",
+                                "unit": "mm",
+                                "valeur": "4"
                             }
                         ]
                     ]
@@ -231,6 +854,41 @@
                                 "name": "distance_du_bas",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "468684"
+                            },
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "468684"
+                            },
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "468684"
+                            },
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "89"
+                            },
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "89"
                             }
                         ]
                     ]
@@ -247,6 +905,240 @@
                                 "name": "distance_du_bas",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "468684"
+                            },
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "468684"
+                            },
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "468684"
+                            },
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "89"
+                            },
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "89"
+                            }
+                        ]
+                    ]
+                }
+            ],
+            [
+                {
+                    "nom": "AddText",
+                    "champs": [
+                        [
+                            {
+                                "nom": "Distance du bord",
+                                "typeinput": "text",
+                                "name": "distance_du_bord",
+                                "unit": "mm",
+                                "valeur": "false"
+                            },
+                            {
+                                "nom": "Distance du bord",
+                                "typeinput": "text",
+                                "name": "distance_du_bord",
+                                "unit": "mm",
+                                "valeur": "846"
+                            }
+                        ],
+                        [
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "false"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "4684"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "4684"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "4684"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "4684"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "56565665"
+                            }
+                        ],
+                        [
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "false"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "486"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "486"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "486"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "486"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "56"
+                            }
+                        ],
+                        [
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "false"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "468"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "468"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "468"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "468"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "6"
+                            }
+                        ],
+                        [
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "false"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "46"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "46"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "46"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "46"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ]
                     ]
@@ -263,6 +1155,13 @@
                                 "name": "max",
                                 "unit": "",
                                 "valeur": "1"
+                            },
+                            {
+                                "nom": "Max",
+                                "typeinput": "text",
+                                "name": "max",
+                                "unit": "",
+                                "valeur": "45"
                             }
                         ],
                         [
@@ -272,6 +1171,13 @@
                                 "name": "min",
                                 "unit": "",
                                 "valeur": "1"
+                            },
+                            {
+                                "nom": "Min",
+                                "typeinput": "text",
+                                "name": "min",
+                                "unit": "",
+                                "valeur": "354"
                             }
                         ]
                     ]
@@ -288,6 +1194,13 @@
                                 "name": "hauteur",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Hauteur",
+                                "typeinput": "text",
+                                "name": "hauteur",
+                                "unit": "mm",
+                                "valeur": "31"
                             }
                         ],
                         [
@@ -297,6 +1210,196 @@
                                 "name": "largeur",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Largeur",
+                                "typeinput": "text",
+                                "name": "largeur",
+                                "unit": "mm",
+                                "valeur": "12"
+                            }
+                        ]
+                    ]
+                }
+            ],
+            [
+                {
+                    "nom": "Enlarge",
+                    "champs": [
+                        [
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "false"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "4684"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "4684"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "4684"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "4684"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "56565665"
+                            }
+                        ],
+                        [
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "false"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "486"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "486"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "486"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "486"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "56"
+                            }
+                        ],
+                        [
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "false"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "468"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "468"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "468"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "468"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "6"
+                            }
+                        ],
+                        [
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "false"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "46"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "46"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "46"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "46"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ]
                     ]
@@ -313,6 +1416,41 @@
                                 "name": "down",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "4684"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "4684"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "4684"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "4684"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "56565665"
                             }
                         ],
                         [
@@ -322,6 +1460,41 @@
                                 "name": "left",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "486"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "486"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "486"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "486"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ],
                         [
@@ -331,6 +1504,41 @@
                                 "name": "right",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "468"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "468"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "468"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "468"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "6"
                             }
                         ],
                         [
@@ -340,6 +1548,41 @@
                                 "name": "up",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "46"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "46"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "46"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "46"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ]
                     ]
@@ -356,6 +1599,13 @@
                                 "name": "pages",
                                 "unit": "",
                                 "valeur": "1"
+                            },
+                            {
+                                "nom": "Pages attendues",
+                                "typeinput": "text",
+                                "name": "pages",
+                                "unit": "",
+                                "valeur": "4"
                             }
                         ]
                     ]
@@ -372,6 +1622,13 @@
                                 "name": "value",
                                 "unit": "",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Valeur",
+                                "typeinput": "text",
+                                "name": "value",
+                                "unit": "",
+                                "valeur": "345"
                             }
                         ]
                     ]
@@ -388,22 +1645,13 @@
                                 "name": "rotation",
                                 "unit": "degrès",
                                 "valeur": "false"
-                            }
-                        ]
-                    ]
-                }
-            ],
-            [
-                {
-                    "nom": "Template",
-                    "champs": [
-                        [
+                            },
                             {
-                                "nom": "Valeur",
-                                "typeinput": "text",
-                                "name": "value",
-                                "unit": "",
-                                "valeur": "false"
+                                "nom": "Rotation",
+                                "typeinput": "select",
+                                "name": "rotation",
+                                "unit": "degrès",
+                                "valeur": "180"
                             }
                         ]
                     ]
@@ -412,8 +1660,8 @@
         ]
     },
     {
-        "nom": "ModeleBrochures",
-        "description": "Modèle typique pour les brochures",
+        "nom": "51381",
+        "description": "chocolalraeufbizru",
         "fct": [
             [
                 {
@@ -426,401 +1674,41 @@
                                 "name": "down",
                                 "unit": "mm",
                                 "valeur": "false"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "Left",
-                                "typeinput": "text",
-                                "name": "left",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "Right",
-                                "typeinput": "text",
-                                "name": "right",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "up",
-                                "typeinput": "text",
-                                "name": "up",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ]
-                    ]
-                }
-            ],
-            [
-                {
-                    "nom": "CheckResolution",
-                    "champs": [
-                        [
-                            {
-                                "nom": "Max",
-                                "typeinput": "text",
-                                "name": "max",
-                                "unit": "",
-                                "valeur": "1"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "Min",
-                                "typeinput": "text",
-                                "name": "min",
-                                "unit": "",
-                                "valeur": "1"
-                            }
-                        ]
-                    ]
-                }
-            ],
-            [
-                {
-                    "nom": "Dimensions",
-                    "champs": [
-                        [
-                            {
-                                "nom": "Hauteur",
-                                "typeinput": "text",
-                                "name": "hauteur",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "Largeur",
-                                "typeinput": "text",
-                                "name": "largeur",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ]
-                    ]
-                }
-            ],
-            [
-                {
-                    "nom": "Preflight",
-                    "champs": [
-                        [
-                            {
-                                "nom": "Valeur",
-                                "typeinput": "text",
-                                "name": "value",
-                                "unit": "",
-                                "valeur": "false"
-                            }
-                        ]
-                    ]
-                }
-            ],
-            [
-                {
-                    "nom": "Rotation",
-                    "champs": [
-                        [
-                            {
-                                "nom": "Rotation",
-                                "typeinput": "select",
-                                "name": "rotation",
-                                "unit": "degrès",
-                                "valeur": "false"
-                            }
-                        ]
-                    ]
-                }
-            ]
-        ]
-    },
-    {
-        "nom": "ModeleCard",
-        "description": "Modèle typique des cartes de visite",
-        "fct": [
-            [
-                {
-                    "nom": "AddText",
-                    "champs": [
-                        [
-                            {
-                                "nom": "Distance du bord",
-                                "typeinput": "text",
-                                "name": "distance_du_bord",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
+                            },
                             {
                                 "nom": "down",
                                 "typeinput": "text",
                                 "name": "down",
                                 "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "Left",
-                                "typeinput": "text",
-                                "name": "left",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "Right",
-                                "typeinput": "text",
-                                "name": "right",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "up",
-                                "typeinput": "text",
-                                "name": "up",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ]
-                    ]
-                }
-            ],
-            [
-                {
-                    "nom": "CheckResolution",
-                    "champs": [
-                        [
-                            {
-                                "nom": "Max",
-                                "typeinput": "text",
-                                "name": "max",
-                                "unit": "",
-                                "valeur": "1"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "Min",
-                                "typeinput": "text",
-                                "name": "min",
-                                "unit": "",
-                                "valeur": "1"
-                            }
-                        ]
-                    ]
-                }
-            ],
-            [
-                {
-                    "nom": "Dimensions",
-                    "champs": [
-                        [
-                            {
-                                "nom": "Hauteur",
-                                "typeinput": "text",
-                                "name": "hauteur",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "Largeur",
-                                "typeinput": "text",
-                                "name": "largeur",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ]
-                    ]
-                }
-            ],
-            [
-                {
-                    "nom": "Template",
-                    "champs": [
-                        [
-                            {
-                                "nom": "Valeur",
-                                "typeinput": "text",
-                                "name": "value",
-                                "unit": "",
-                                "valeur": "false"
-                            }
-                        ]
-                    ]
-                }
-            ]
-        ]
-    },
-    {
-        "nom": "ModeleFlyers",
-        "description": "Modèle typique des Flyers",
-        "fct": [
-            [
-                {
-                    "nom": "AddText",
-                    "champs": [
-                        [
-                            {
-                                "nom": "Distance du bord",
-                                "typeinput": "text",
-                                "name": "distance_du_bord",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
+                                "valeur": "4684"
+                            },
                             {
                                 "nom": "down",
                                 "typeinput": "text",
                                 "name": "down",
                                 "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "Left",
-                                "typeinput": "text",
-                                "name": "left",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "Right",
-                                "typeinput": "text",
-                                "name": "right",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "up",
-                                "typeinput": "text",
-                                "name": "up",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ]
-                    ]
-                }
-            ],
-            [
-                {
-                    "nom": "CheckResolution",
-                    "champs": [
-                        [
-                            {
-                                "nom": "Max",
-                                "typeinput": "text",
-                                "name": "max",
-                                "unit": "",
-                                "valeur": "1"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "Min",
-                                "typeinput": "text",
-                                "name": "min",
-                                "unit": "",
-                                "valeur": "1"
-                            }
-                        ]
-                    ]
-                }
-            ],
-            [
-                {
-                    "nom": "Dimensions",
-                    "champs": [
-                        [
-                            {
-                                "nom": "Hauteur",
-                                "typeinput": "text",
-                                "name": "hauteur",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "Largeur",
-                                "typeinput": "text",
-                                "name": "largeur",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ]
-                    ]
-                }
-            ],
-            [
-                {
-                    "nom": "Rotation",
-                    "champs": [
-                        [
-                            {
-                                "nom": "Rotation",
-                                "typeinput": "select",
-                                "name": "rotation",
-                                "unit": "degrès",
-                                "valeur": "false"
-                            }
-                        ]
-                    ]
-                }
-            ],
-            [
-                {
-                    "nom": "Template",
-                    "champs": [
-                        [
-                            {
-                                "nom": "Valeur",
-                                "typeinput": "text",
-                                "name": "value",
-                                "unit": "",
-                                "valeur": "false"
-                            }
-                        ]
-                    ]
-                }
-            ]
-        ]
-    },
-    {
-        "nom": "ModeleRollUp",
-        "description": "Modèle typique des RollUp",
-        "fct": [
-            [
-                {
-                    "nom": "Addblanc",
-                    "champs": [
-                        [
+                                "valeur": "4684"
+                            },
                             {
                                 "nom": "down",
                                 "typeinput": "text",
                                 "name": "down",
                                 "unit": "mm",
-                                "valeur": "false"
+                                "valeur": "4684"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "4684"
+                            },
+                            {
+                                "nom": "down",
+                                "typeinput": "text",
+                                "name": "down",
+                                "unit": "mm",
+                                "valeur": "56565665"
                             }
                         ],
                         [
@@ -830,6 +1718,41 @@
                                 "name": "left",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "486"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "486"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "486"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "486"
+                            },
+                            {
+                                "nom": "Left",
+                                "typeinput": "text",
+                                "name": "left",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ],
                         [
@@ -839,6 +1762,41 @@
                                 "name": "right",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "468"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "468"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "468"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "468"
+                            },
+                            {
+                                "nom": "Right",
+                                "typeinput": "text",
+                                "name": "right",
+                                "unit": "mm",
+                                "valeur": "6"
                             }
                         ],
                         [
@@ -848,6 +1806,41 @@
                                 "name": "up",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "46"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "46"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "46"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "46"
+                            },
+                            {
+                                "nom": "up",
+                                "typeinput": "text",
+                                "name": "up",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ]
                     ]
@@ -864,6 +1857,41 @@
                                 "name": "distance_du_bas",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "468684"
+                            },
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "468684"
+                            },
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "468684"
+                            },
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "89"
+                            },
+                            {
+                                "nom": "Distance du bas",
+                                "typeinput": "text",
+                                "name": "distance_du_bas",
+                                "unit": "mm",
+                                "valeur": "89"
                             }
                         ]
                     ]
@@ -880,6 +1908,34 @@
                                 "name": "left_down_horizontal",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Left down horizontal",
+                                "typeinput": "text",
+                                "name": "left_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "5"
+                            },
+                            {
+                                "nom": "Left down horizontal",
+                                "typeinput": "text",
+                                "name": "left_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "5"
+                            },
+                            {
+                                "nom": "Left down horizontal",
+                                "typeinput": "text",
+                                "name": "left_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "56"
+                            },
+                            {
+                                "nom": "Left down horizontal",
+                                "typeinput": "text",
+                                "name": "left_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ],
                         [
@@ -889,6 +1945,34 @@
                                 "name": "left_down_vertical",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Left down vertical",
+                                "typeinput": "text",
+                                "name": "left_down_vertical",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Left down vertical",
+                                "typeinput": "text",
+                                "name": "left_down_vertical",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Left down vertical",
+                                "typeinput": "text",
+                                "name": "left_down_vertical",
+                                "unit": "mm",
+                                "valeur": "56"
+                            },
+                            {
+                                "nom": "Left down vertical",
+                                "typeinput": "text",
+                                "name": "left_down_vertical",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ],
                         [
@@ -898,6 +1982,34 @@
                                 "name": "left_up_horizontal",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Left up horizontal",
+                                "typeinput": "text",
+                                "name": "left_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "64"
+                            },
+                            {
+                                "nom": "Left up horizontal",
+                                "typeinput": "text",
+                                "name": "left_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "64"
+                            },
+                            {
+                                "nom": "Left up horizontal",
+                                "typeinput": "text",
+                                "name": "left_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "56"
+                            },
+                            {
+                                "nom": "Left up horizontal",
+                                "typeinput": "text",
+                                "name": "left_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ],
                         [
@@ -907,6 +2019,34 @@
                                 "name": "left_up_vertical",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Left up vertical",
+                                "typeinput": "text",
+                                "name": "left_up_vertical",
+                                "unit": "mm",
+                                "valeur": "5345"
+                            },
+                            {
+                                "nom": "Left up vertical",
+                                "typeinput": "text",
+                                "name": "left_up_vertical",
+                                "unit": "mm",
+                                "valeur": "5345"
+                            },
+                            {
+                                "nom": "Left up vertical",
+                                "typeinput": "text",
+                                "name": "left_up_vertical",
+                                "unit": "mm",
+                                "valeur": "56"
+                            },
+                            {
+                                "nom": "Left up vertical",
+                                "typeinput": "text",
+                                "name": "left_up_vertical",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ],
                         [
@@ -916,6 +2056,34 @@
                                 "name": "right_down_horizontal",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Right down horizontal",
+                                "typeinput": "text",
+                                "name": "right_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Right down horizontal",
+                                "typeinput": "text",
+                                "name": "right_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Right down horizontal",
+                                "typeinput": "text",
+                                "name": "right_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "5656"
+                            },
+                            {
+                                "nom": "Right down horizontal",
+                                "typeinput": "text",
+                                "name": "right_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "5656"
                             }
                         ],
                         [
@@ -925,6 +2093,34 @@
                                 "name": "right_down_vertical",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Right down vertical",
+                                "typeinput": "text",
+                                "name": "right_down_vertical",
+                                "unit": "mm",
+                                "valeur": "35"
+                            },
+                            {
+                                "nom": "Right down vertical",
+                                "typeinput": "text",
+                                "name": "right_down_vertical",
+                                "unit": "mm",
+                                "valeur": "35"
+                            },
+                            {
+                                "nom": "Right down vertical",
+                                "typeinput": "text",
+                                "name": "right_down_vertical",
+                                "unit": "mm",
+                                "valeur": "6"
+                            },
+                            {
+                                "nom": "Right down vertical",
+                                "typeinput": "text",
+                                "name": "right_down_vertical",
+                                "unit": "mm",
+                                "valeur": "6"
                             }
                         ],
                         [
@@ -934,6 +2130,34 @@
                                 "name": "right_up_horizontal",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Right up horizontal",
+                                "typeinput": "text",
+                                "name": "right_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Right up horizontal",
+                                "typeinput": "text",
+                                "name": "right_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Right up horizontal",
+                                "typeinput": "text",
+                                "name": "right_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "55"
+                            },
+                            {
+                                "nom": "Right up horizontal",
+                                "typeinput": "text",
+                                "name": "right_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "55"
                             }
                         ],
                         [
@@ -943,6 +2167,34 @@
                                 "name": "right_up_vertical",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Right up vertical",
+                                "typeinput": "text",
+                                "name": "right_up_vertical",
+                                "unit": "mm",
+                                "valeur": "864"
+                            },
+                            {
+                                "nom": "Right up vertical",
+                                "typeinput": "text",
+                                "name": "right_up_vertical",
+                                "unit": "mm",
+                                "valeur": "864"
+                            },
+                            {
+                                "nom": "Right up vertical",
+                                "typeinput": "text",
+                                "name": "right_up_vertical",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Right up vertical",
+                                "typeinput": "text",
+                                "name": "right_up_vertical",
+                                "unit": "mm",
+                                "valeur": "4"
                             }
                         ]
                     ]
@@ -959,6 +2211,34 @@
                                 "name": "left_down_horizontal",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Left down horizontal",
+                                "typeinput": "text",
+                                "name": "left_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "5"
+                            },
+                            {
+                                "nom": "Left down horizontal",
+                                "typeinput": "text",
+                                "name": "left_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "5"
+                            },
+                            {
+                                "nom": "Left down horizontal",
+                                "typeinput": "text",
+                                "name": "left_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "56"
+                            },
+                            {
+                                "nom": "Left down horizontal",
+                                "typeinput": "text",
+                                "name": "left_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ],
                         [
@@ -968,6 +2248,34 @@
                                 "name": "left_down_vertical",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Left down vertical",
+                                "typeinput": "text",
+                                "name": "left_down_vertical",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Left down vertical",
+                                "typeinput": "text",
+                                "name": "left_down_vertical",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Left down vertical",
+                                "typeinput": "text",
+                                "name": "left_down_vertical",
+                                "unit": "mm",
+                                "valeur": "56"
+                            },
+                            {
+                                "nom": "Left down vertical",
+                                "typeinput": "text",
+                                "name": "left_down_vertical",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ],
                         [
@@ -977,6 +2285,34 @@
                                 "name": "left_up_horizontal",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Left up horizontal",
+                                "typeinput": "text",
+                                "name": "left_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "64"
+                            },
+                            {
+                                "nom": "Left up horizontal",
+                                "typeinput": "text",
+                                "name": "left_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "64"
+                            },
+                            {
+                                "nom": "Left up horizontal",
+                                "typeinput": "text",
+                                "name": "left_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "56"
+                            },
+                            {
+                                "nom": "Left up horizontal",
+                                "typeinput": "text",
+                                "name": "left_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ],
                         [
@@ -986,6 +2322,34 @@
                                 "name": "left_up_vertical",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Left up vertical",
+                                "typeinput": "text",
+                                "name": "left_up_vertical",
+                                "unit": "mm",
+                                "valeur": "5345"
+                            },
+                            {
+                                "nom": "Left up vertical",
+                                "typeinput": "text",
+                                "name": "left_up_vertical",
+                                "unit": "mm",
+                                "valeur": "5345"
+                            },
+                            {
+                                "nom": "Left up vertical",
+                                "typeinput": "text",
+                                "name": "left_up_vertical",
+                                "unit": "mm",
+                                "valeur": "56"
+                            },
+                            {
+                                "nom": "Left up vertical",
+                                "typeinput": "text",
+                                "name": "left_up_vertical",
+                                "unit": "mm",
+                                "valeur": "56"
                             }
                         ],
                         [
@@ -995,6 +2359,34 @@
                                 "name": "right_down_horizontal",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Right down horizontal",
+                                "typeinput": "text",
+                                "name": "right_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Right down horizontal",
+                                "typeinput": "text",
+                                "name": "right_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Right down horizontal",
+                                "typeinput": "text",
+                                "name": "right_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "5656"
+                            },
+                            {
+                                "nom": "Right down horizontal",
+                                "typeinput": "text",
+                                "name": "right_down_horizontal",
+                                "unit": "mm",
+                                "valeur": "5656"
                             }
                         ],
                         [
@@ -1004,6 +2396,34 @@
                                 "name": "right_down_vertical",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Right down vertical",
+                                "typeinput": "text",
+                                "name": "right_down_vertical",
+                                "unit": "mm",
+                                "valeur": "35"
+                            },
+                            {
+                                "nom": "Right down vertical",
+                                "typeinput": "text",
+                                "name": "right_down_vertical",
+                                "unit": "mm",
+                                "valeur": "35"
+                            },
+                            {
+                                "nom": "Right down vertical",
+                                "typeinput": "text",
+                                "name": "right_down_vertical",
+                                "unit": "mm",
+                                "valeur": "6"
+                            },
+                            {
+                                "nom": "Right down vertical",
+                                "typeinput": "text",
+                                "name": "right_down_vertical",
+                                "unit": "mm",
+                                "valeur": "6"
                             }
                         ],
                         [
@@ -1013,6 +2433,34 @@
                                 "name": "right_up_horizontal",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Right up horizontal",
+                                "typeinput": "text",
+                                "name": "right_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Right up horizontal",
+                                "typeinput": "text",
+                                "name": "right_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Right up horizontal",
+                                "typeinput": "text",
+                                "name": "right_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "55"
+                            },
+                            {
+                                "nom": "Right up horizontal",
+                                "typeinput": "text",
+                                "name": "right_up_horizontal",
+                                "unit": "mm",
+                                "valeur": "55"
                             }
                         ],
                         [
@@ -1022,6 +2470,34 @@
                                 "name": "right_up_vertical",
                                 "unit": "mm",
                                 "valeur": "false"
+                            },
+                            {
+                                "nom": "Right up vertical",
+                                "typeinput": "text",
+                                "name": "right_up_vertical",
+                                "unit": "mm",
+                                "valeur": "864"
+                            },
+                            {
+                                "nom": "Right up vertical",
+                                "typeinput": "text",
+                                "name": "right_up_vertical",
+                                "unit": "mm",
+                                "valeur": "864"
+                            },
+                            {
+                                "nom": "Right up vertical",
+                                "typeinput": "text",
+                                "name": "right_up_vertical",
+                                "unit": "mm",
+                                "valeur": "4"
+                            },
+                            {
+                                "nom": "Right up vertical",
+                                "typeinput": "text",
+                                "name": "right_up_vertical",
+                                "unit": "mm",
+                                "valeur": "4"
                             }
                         ]
                     ]
@@ -1038,248 +2514,41 @@
                                 "name": "distance_du_bas",
                                 "unit": "mm",
                                 "valeur": "false"
-                            }
-                        ]
-                    ]
-                }
-            ],
-            [
-                {
-                    "nom": "AddMachineLine",
-                    "champs": [
-                        [
+                            },
                             {
                                 "nom": "Distance du bas",
                                 "typeinput": "text",
                                 "name": "distance_du_bas",
                                 "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ]
-                    ]
-                }
-            ],
-            [
-                {
-                    "nom": "AddText",
-                    "champs": [
-                        [
+                                "valeur": "468684"
+                            },
                             {
-                                "nom": "Distance du bord",
+                                "nom": "Distance du bas",
                                 "typeinput": "text",
-                                "name": "distance_du_bord",
+                                "name": "distance_du_bas",
                                 "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
+                                "valeur": "468684"
+                            },
                             {
-                                "nom": "down",
+                                "nom": "Distance du bas",
                                 "typeinput": "text",
-                                "name": "down",
+                                "name": "distance_du_bas",
                                 "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
+                                "valeur": "468684"
+                            },
                             {
-                                "nom": "Left",
+                                "nom": "Distance du bas",
                                 "typeinput": "text",
-                                "name": "left",
+                                "name": "distance_du_bas",
                                 "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
+                                "valeur": "89"
+                            },
                             {
-                                "nom": "Right",
+                                "nom": "Distance du bas",
                                 "typeinput": "text",
-                                "name": "right",
+                                "name": "distance_du_bas",
                                 "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "up",
-                                "typeinput": "text",
-                                "name": "up",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ]
-                    ]
-                }
-            ],
-            [
-                {
-                    "nom": "CheckResolution",
-                    "champs": [
-                        [
-                            {
-                                "nom": "Max",
-                                "typeinput": "text",
-                                "name": "max",
-                                "unit": "",
-                                "valeur": "1"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "Min",
-                                "typeinput": "text",
-                                "name": "min",
-                                "unit": "",
-                                "valeur": "1"
-                            }
-                        ]
-                    ]
-                }
-            ],
-            [
-                {
-                    "nom": "Dimensions",
-                    "champs": [
-                        [
-                            {
-                                "nom": "Hauteur",
-                                "typeinput": "text",
-                                "name": "hauteur",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "Largeur",
-                                "typeinput": "text",
-                                "name": "largeur",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ]
-                    ]
-                }
-            ],
-            [
-                {
-                    "nom": "Miroir",
-                    "champs": [
-                        [
-                            {
-                                "nom": "down",
-                                "typeinput": "text",
-                                "name": "down",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "Left",
-                                "typeinput": "text",
-                                "name": "left",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "Right",
-                                "typeinput": "text",
-                                "name": "right",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "up",
-                                "typeinput": "text",
-                                "name": "up",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ]
-                    ]
-                }
-            ],
-            [
-                {
-                    "nom": "Preflight",
-                    "champs": [
-                        [
-                            {
-                                "nom": "Valeur",
-                                "typeinput": "text",
-                                "name": "value",
-                                "unit": "",
-                                "valeur": "false"
-                            }
-                        ]
-                    ]
-                }
-            ],
-            [
-                {
-                    "nom": "Rotation",
-                    "champs": [
-                        [
-                            {
-                                "nom": "Rotation",
-                                "typeinput": "select",
-                                "name": "rotation",
-                                "unit": "degrès",
-                                "valeur": "false"
-                            }
-                        ]
-                    ]
-                }
-            ]
-        ]
-    },
-    {
-        "nom": "ModèleTest",
-        "description": "ceci est un test",
-        "fct": [
-            [
-                {
-                    "nom": "Addblanc",
-                    "champs": [
-                        [
-                            {
-                                "nom": "down",
-                                "typeinput": "text",
-                                "name": "down",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "Left",
-                                "typeinput": "text",
-                                "name": "left",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "Right",
-                                "typeinput": "text",
-                                "name": "right",
-                                "unit": "mm",
-                                "valeur": "false"
-                            }
-                        ],
-                        [
-                            {
-                                "nom": "up",
-                                "typeinput": "text",
-                                "name": "up",
-                                "unit": "mm",
-                                "valeur": "false"
+                                "valeur": "89"
                             }
                         ]
                     ]
