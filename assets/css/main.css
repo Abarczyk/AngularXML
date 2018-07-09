@@ -7,40 +7,35 @@ body, html{
     width: 100%;
     height: 100%;
 }
-
 body{
     font-family: sans-serif;
     line-height: 1.4;
     display: grid;
     grid-template-rows: 1fr 1fr 4fr;
 }
-
 #main{
+  overflow: scroll;
+  text-align: center;
 
 }
-
 #SideBar{
 
 }
-
 #head{
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
   background-color: white;
 }
-a{
-    text-decoration: none;
+a,a:hover{
+    text-decoration: none !important;
     width: 100%;
 }
-
 hr{
     border: 0;
     border-top: 1px solid #8c8c8c;
     border-bottom: 1px solid #fff;
 }
-
-
 /****************************************************
  *      Boutons
  *****************************************************/
@@ -54,7 +49,6 @@ input[type=password],input[type=file], input[type=text], input[type=email], sele
     box-sizing: border-box;
     text-align: center;
 }
-
 input[type=submit] {
     width: 100%;
     color: white;
@@ -65,31 +59,6 @@ input[type=submit] {
     cursor: pointer;
     text-align: center;
 }
-
-/****************************************************
- *      Titres
- *****************************************************/
-.title {
-    color: #333;
-    display: inline-block;
-    text-decoration: none;
-    border-bottom: 2px solid #fff;
-    -moz-transition: all .2s linear 0s;
-    -webkit-transition: all .2s linear 0s;
-    -o-transition: all .2s linear 0s;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-}
-.title:hover {
-    color: #3463b4;
-}
-
-
-
-/****************************************************
- *      Bouton poussoir
- *****************************************************/
 .push_button{
     position:relative;
     width:200px;
@@ -123,16 +92,26 @@ input[type=submit] {
     -moz-box-shadow: 0px 9px 0px #474747;
     box-shadow: 0px 9px 0px #474747;
 }
+/****************************************************
+ *      Titres
+ *****************************************************/
+.title {
+    color: #333;
+    display: inline-block;
+    border-bottom: 2px solid #fff;
+    -moz-transition: all .2s linear 0s;
+    -webkit-transition: all .2s linear 0s;
+    -o-transition: all .2s linear 0s;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.title:hover {
+    color: #3463b4;
+}
 .hidden{
     display: none;
 }
-
-
-label{
-    width: 100%;
-}
-
-
 /****************************************************
  *      Formulaire d'ajout
  *****************************************************/
@@ -143,16 +122,15 @@ label{
 .content label input, .content label select {
     width: 100%;
 }
-
-
 /****************************************************
  *      Modèles
  *****************************************************/
-
+ table th{
+   text-align: center;
+ }
  .modal-content{
    text-align: center;
  }
-
  input[type=checkbox]{
    display: none;
  }
@@ -162,22 +140,62 @@ label{
    grid-gap: 10px;
    grid-template-columns: 1fr 1fr 1fr;
  }
-
  .categorie{
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: repeat(3,1fr);
+   grid-auto-flow: row dense;
  }
-
- .item{
-   width: 100%;
- }
-
  .circle{
-    margin:10px;
+    margin:auto;
     width:100px;
     background: rgba(18, 81, 147, 0.7);
     height:100px;
     text-align:center;
     border-radius:100px;
     line-height: 50px;
+    }
+.js-title{
+  width: 100%;
+}
+label{
+    width: 100%;
+}
+/****************************************************
+ *      Footer
+ *****************************************************/
+#footer{
+  background-color:#d1d1d1;
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  bottom: 0px;
+  text-align:center;
+  color:rgb(84, 84, 84);
+}
+/****************************************************
+ *      menu
+ *****************************************************/
+nav {
+    border-top-right-radius: 5px;
+}
+nav ul {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  list-style:none;
+	padding: 0;
+}
+nav ul a li {
+    color: white;
+    -moz-transition: all .2s linear 0s;
+    -webkit-transition: all .2s linear 0s;
+    -o-transition: all .2s linear 0s;
+    font-size: 15px;
+    display: block;
+}
+h1{
+  font-size: 32px;
+  color: #000000;
+  font-weight:lighter;
+  display:block;
 }

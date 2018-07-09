@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Infos_Modele nom="39169" description="choco"/>
+<Addblanc>
+  <down value="4684">true</down>
+  <left value="486">true</left>
+  <right value="468">true</right>
+  <up value="46">true</up>
+</Addblanc>
+<AddCropLine>
+  <distance_du_bas value="468684">true</distance_du_bas>
+</AddCropLine>
+<AddCropMarksExt>
+  <left_down_horizontal value="5">true</left_down_horizontal>
+  <left_down_vertical value="4">true</left_down_vertical>
+  <left_up_horizontal value="64">true</left_up_horizontal>
+  <left_up_vertical value="5345">true</left_up_vertical>
+  <right_down_horizontal value="4">true</right_down_horizontal>
+  <right_down_vertical value="35">true</right_down_vertical>
+  <right_up_horizontal value="4">true</right_up_horizontal>
+  <right_up_vertical value="864">true</right_up_vertical>
+</AddCropMarksExt>
+<AddCropMarksInt>
+  <left_down_horizontal value="5">true</left_down_horizontal>
+  <left_down_vertical value="4">true</left_down_vertical>
+  <left_up_horizontal value="64">true</left_up_horizontal>
+  <left_up_vertical value="5345">true</left_up_vertical>
+  <right_down_horizontal value="4">true</right_down_horizontal>
+  <right_down_vertical value="35">true</right_down_vertical>
+  <right_up_horizontal value="4">true</right_up_horizontal>
+  <right_up_vertical value="864">true</right_up_vertical>
+</AddCropMarksInt>
+<AddFoldLine>
+  <distance_du_bas value="468684">true</distance_du_bas>
+</AddFoldLine>
+<AddMachineLine>
+  <distance_du_bas value="468684">true</distance_du_bas>
+</AddMachineLine>
+<AddText>
+  <distance_du_bord value="846">true</distance_du_bord>
+  <down value="4684">true</down>
+  <left value="486">true</left>
+  <right value="468">true</right>
+  <up value="46">true</up>
+</AddText>
+<CheckResolution>
+  <max value="45">true</max>
+  <min value="354">true</min>
+</CheckResolution>
+<Dimensions>
+  <hauteur value="31">true</hauteur>
+  <largeur value="12">true</largeur>
+</Dimensions>
+<Enlarge>
+  <down value="4684">true</down>
+  <left value="486">true</left>
+  <right value="468">true</right>
+  <up value="46">true</up>
+</Enlarge>
+<Miroir>
+  <down value="4684">true</down>
+  <left value="486">true</left>
+  <right value="468">true</right>
+  <up value="46">true</up>
+</Miroir>
+<NbPages>
+  <pages value="4">true</pages>
+</NbPages>
+<Preflight>
+  <value value="345">true</value>
+</Preflight>
+<Rotation>
+  <rotation value="180">true</rotation>
+</Rotation>
+<Template>false</Template>

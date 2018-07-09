@@ -1,5 +1,10 @@
 
-App.controller('XMLController', ['$scope','AjaxService','AddDOM',function ($scope,$AjaxService,$AddDOM) {
+App.controller('XMLController',
+[
+  '$scope',
+  'AjaxService',
+  'AddDOM',
+  function ($scope,$AjaxService,$AddDOM) {
 
     var ctrl = this
     ctrl.getlocalStorage = getlocalStorage
@@ -9,6 +14,7 @@ App.controller('XMLController', ['$scope','AjaxService','AddDOM',function ($scop
       objet de transition avec la bdd
     */
     $scope.master = {}
+    $scope.active = false
 
     init()
 
@@ -27,7 +33,8 @@ App.controller('XMLController', ['$scope','AjaxService','AddDOM',function ($scop
               loadCategories().then(function(response){
                 loadModels().then(function(response) {
                   loadFct().then(function(response){
-                    loadChamps()
+                    loadChamps().then(function(response){
+                    })
                   })
                 })
               })
@@ -135,7 +142,7 @@ App.controller('XMLController', ['$scope','AjaxService','AddDOM',function ($scop
                   lib[i].modeles.push(copy)
                   copy.category = { "nom" : lib[i].nom }
                   console.log('librairie :', $scope.librairie)
-                  $AjaxService.post('backend/addModel.php',copy)
+                  $AjaxService.post('backend/ajouter/addModel.php',copy)
                   return
               }
             }
@@ -170,7 +177,7 @@ App.controller('XMLController', ['$scope','AjaxService','AddDOM',function ($scop
     $scope.addModel = function(item){
         console.log('envoi : ', item);
         $scope.master = angular.copy(item)
-        $AjaxService.post('backend/addModel.php',$scope.master)
+        $AjaxService.post('backend/ajouter/addModel.php',$scope.master)
         init()
     }
     /*
@@ -180,7 +187,7 @@ App.controller('XMLController', ['$scope','AjaxService','AddDOM',function ($scop
     $scope.addFct = function(item){
         console.log('envoi : ', item);
         $scope.master = angular.copy(item)
-        $AjaxService.post('backend/addFonction.php',$scope.master)
+        $AjaxService.post('backend/ajouter/addFonction.php',$scope.master)
         init()
     }
     /*
@@ -190,7 +197,7 @@ App.controller('XMLController', ['$scope','AjaxService','AddDOM',function ($scop
     $scope.addCat = function(item){
         console.log('envoi : ', item);
         $scope.master = angular.copy(item)
-        $AjaxService.post('backend/addCategory.php',$scope.master)
+        $AjaxService.post('backend/ajouter/addCategory.php',$scope.master)
         init()
     }
     /*
@@ -200,7 +207,7 @@ App.controller('XMLController', ['$scope','AjaxService','AddDOM',function ($scop
     $scope.addChps = function(item){
         console.log('envoi : ', item);
         $scope.master = angular.copy(item)
-        $AjaxService.post('backend/addChamp.php',$scope.master)
+        $AjaxService.post('backend/ajouter/addChamp.php',$scope.master)
         init()
     }
 

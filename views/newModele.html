@@ -1,28 +1,29 @@
 <div >
   <input style="width:100%;"type="text" ng-model = "query" placeholder="Rechercher">
 </div>
-    <div class="categorie">
-      <div class="item" ng-repeat="category in librairie | filter : query" >
+    <div id="js-Portfolio" class="categorie">
+      <div  class="item" ng-repeat="category in librairie | filter : query" >
 
-          <div class="form-group">
-
-              <div class="btn-group">
-                      <label class="btn btn-block btn-default active" ><input ng-model = "checked" type="checkbox"/>{{category.nom}}</label>
-              </div>
-              <table class="table table-striped" ng-if = "checked">
-                  <th scope="col">Nom</th>
-                  <th scope="col">Description</th>
-                  <th scope="col">Actions</th>
-                  <tr class="Models" ng-repeat="model in category.modeles" ng-if = 'category.modeles.length > 0' >
-                    <td>{{model.nom}}</td>
-                    <td>{{model.description}}</td>
-                    <td class="actions">
-                      <a ng-click = "copy(model)" href="#" class="btn-sm btn-info"><span class="glyphicon glyphicon-file"></span> </a>
-                      <a ng-click = "edit(model)" href="#" class="btn-sm btn-success" data-toggle="modal" data-target="#ModalEdition"><span class="glyphicon glyphicon-edit"></span> </a>
-                      <a ng-click = "edit(model)" href="#" class="btn-sm btn-danger" data-toggle="modal" data-target="#ModalSuppression"><span class="glyphicon glyphicon-trash"></span> </a>
-                    </td>
-                  </tr>
+          <div class="form-group js-item">
+            <div class="btn-group js-title">
+                <label class="title" style="cursor:pointer;"><input ng-model = "checked" type="checkbox"/>{{category.nom}} <span class="glyphicon glyphicon-chevron-down"></span></label>
+                </div>
+            <div class="js-body">
+            <table class="table table-striped" ng-if="checked">
+                                <th scope="col">Nom</th>
+                                <th scope="col">Description</th>
+                                <th scope="col">Actions</th>
+                                <tr class="Models" ng-repeat="model in category.modeles" ng-if = 'category.modeles.length > 0' >
+                                  <td>{{model.nom}}</td>
+                                  <td>{{model.description}}</td>
+                                  <td class="actions">
+                                    <a ng-click = "copy(model)" href="#" class="btn-sm btn-info"><span class="glyphicon glyphicon-file"></span> </a>
+                                    <a ng-click = "edit(model)" href="#" class="btn-sm btn-success" data-toggle="modal" data-target="#ModalEdition"><span class="glyphicon glyphicon-edit"></span> </a>
+                                    <a ng-click = "edit(model)" href="#" class="btn-sm btn-danger" data-toggle="modal" data-target="#ModalSuppression"><span class="glyphicon glyphicon-trash"></span> </a>
+                                  </td>
+                                </tr>
               </table>
+            </div>
           </div>
 
       </div>
