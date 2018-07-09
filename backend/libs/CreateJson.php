@@ -6,7 +6,7 @@ include "modele.php";
 function CreateCategorie(){
   // création du Json
   $Tabmodels = [];
-  $Json = fopen('../assets/json/categories.json', 'w+');
+  $Json = fopen('../../assets/json/categories.json', 'w+');
   $categories = selectbdd('nom,modeles','categories');
 
   for ($i=0; $i < count($categories); $i++) {
@@ -23,7 +23,7 @@ function CreateCategorie(){
 function CreateFonctions(){
   // création du Json
   $Tabmodels = [];
-  $Json = fopen('../assets/json/fonctions.json', 'w+');
+  $Json = fopen('../../assets/json/fonctions.json', 'w+');
   $fonctions = selectbdd('nom,description,champs','fonctions');
 
   for ($i=0; $i < count($fonctions); $i++) {
@@ -36,7 +36,7 @@ function CreateFonctions(){
 function CreateChamps(){
   // création du Json
   $Tabmodels = [];
-  $Json = fopen('../assets/json/champs.json', 'w+');
+  $Json = fopen('../../assets/json/champs.json', 'w+');
   $champs = selectbdd('nom,typeinput,unit,name,valeur,default_select','champs',"modele like '' " );
 
   for ($i=0; $i < count($champs); $i++) {
@@ -49,7 +49,7 @@ function CreateChamps(){
 
 function CreateModels(){
   // création du Json
-  $Json = fopen('../assets/json/models.json', 'w+');
+  $Json = fopen('../../assets/json/models.json', 'w+');
   $models = selectbdd('nom,description,fct','modeles');
 
   for ($i=0; $i < count($models); $i++) {
@@ -73,7 +73,7 @@ function CreateModels(){
 function createLibrairie(){
   // création du Json
 
-  $Json = fopen('../assets/json/librairie.json', 'w+');
+  $Json = fopen('../../assets/json/librairie.json', 'w+');
   $categories = selectbdd('id,nom,modeles','categories');
 
 

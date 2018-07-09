@@ -21,7 +21,8 @@ $xml_doc = new DOMDocument('1.0', 'utf-8');
 /*
   Informations concernant le modèle choisi
 */
-$xml_doc->appendChild($info_Modele = $xml_doc->createElement('Infos_Modele'));
+$xml_doc->appendChild($jobInfo = $xml_doc->createElement('jobInfo'));
+$jobInfo->appendChild($info_Modele = $xml_doc->createElement('Infos_Modele'));
 $info_Modele->setAttribute('nom',$Tab->nom);
 $info_Modele->setAttribute('description',$Tab->description);
 $strTrue = "";
@@ -32,7 +33,7 @@ foreach ($Tab->fct as $value) {
     - nom             (nom de la fonction)
     - champs          (tableau de sous champs de la fonction)
   */
-  $xml_doc->appendChild($fct = $xml_doc->createElement($value->nom));
+  $jobInfo->appendChild($fct = $xml_doc->createElement($value->nom));
   /*
     on a acces à un objet contenant :
     - nom           (affiché sur le web)
@@ -56,7 +57,7 @@ foreach ($Tab->fct as $value) {
 $strTrue = substr($strTrue, 0, -17);
 $query = selectbdd('*','fonctions',"nom not like $strTrue ");
 for ($i=0; $i < count($query); $i++) {
-  $xml_doc->appendChild($fct = $xml_doc->createElement($query[$i]['nom'],'false'));
+  $jobInfo->appendChild($fct = $xml_doc->createElement($query[$i]['nom'],'false'));
 }
 
 /*

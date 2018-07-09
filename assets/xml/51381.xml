@@ -1,44 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Infos_Modele nom="51381" description="chocolalraeufbizru"/>
-<Addblanc>
-  <down value="56565665">true</down>
-  <left value="56">true</left>
-  <right value="6">true</right>
-  <up value="56">true</up>
-</Addblanc>
-<AddCropLine>
-  <distance_du_bas value="65">true</distance_du_bas>
-</AddCropLine>
-<AddCropMarksExt>
-  <left_down_horizontal value="65">true</left_down_horizontal>
-  <left_down_vertical value="6556">true</left_down_vertical>
-  <left_up_horizontal value="6">true</left_up_horizontal>
-  <left_up_vertical value="56">true</left_up_vertical>
-  <right_down_horizontal value="55">true</right_down_horizontal>
-  <right_down_vertical value="656">true</right_down_vertical>
-  <right_up_horizontal value="56">true</right_up_horizontal>
-  <right_up_vertical value="56">true</right_up_vertical>
-</AddCropMarksExt>
-<AddCropMarksInt>
-  <left_down_horizontal value="56">true</left_down_horizontal>
-  <left_down_vertical value="56">true</left_down_vertical>
-  <left_up_horizontal value="56">true</left_up_horizontal>
-  <left_up_vertical value="56">true</left_up_vertical>
-  <right_down_horizontal value="5656">true</right_down_horizontal>
-  <right_down_vertical value="6">true</right_down_vertical>
-  <right_up_horizontal value="55">true</right_up_horizontal>
-  <right_up_vertical value="4">true</right_up_vertical>
-</AddCropMarksInt>
-<AddFoldLine>
-  <distance_du_bas value="89">true</distance_du_bas>
-</AddFoldLine>
-<Preflight>false</Preflight>
-<Template>false</Template>
-<Rotation>false</Rotation>
-<Dimensions>false</Dimensions>
-<NbPages>false</NbPages>
-<Miroir>false</Miroir>
-<CheckResolution>false</CheckResolution>
-<AddMachineLine>false</AddMachineLine>
-<AddText>false</AddText>
-<Enlarge>false</Enlarge>
+<jobInfo>
+  <Infos_Modele nom="51381" description="chocolalraeufbizru"/>
+  <Addblanc>
+    <down value="57">true</down>
+    <left value="56">true</left>
+    <right value="6">true</right>
+    <up value="56">true</up>
+  </Addblanc>
+  <AddCropLine>
+    <distance_du_bas value="89">true</distance_du_bas>
+  </AddCropLine>
+  <AddCropMarksExt>
+    <left_down_horizontal value="56">true</left_down_horizontal>
+    <left_down_vertical value="56">true</left_down_vertical>
+    <left_up_horizontal value="56">true</left_up_horizontal>
+    <left_up_vertical value="56">true</left_up_vertical>
+    <right_down_horizontal value="5656">true</right_down_horizontal>
+    <right_down_vertical value="6">true</right_down_vertical>
+    <right_up_horizontal value="55">true</right_up_horizontal>
+    <right_up_vertical value="4">true</right_up_vertical>
+  </AddCropMarksExt>
+  <AddCropMarksInt>
+    <left_down_horizontal value="56">true</left_down_horizontal>
+    <left_down_vertical value="56">true</left_down_vertical>
+    <left_up_horizontal value="56">true</left_up_horizontal>
+    <left_up_vertical value="56">true</left_up_vertical>
+    <right_down_horizontal value="5656">true</right_down_horizontal>
+    <right_down_vertical value="6">true</right_down_vertical>
+    <right_up_horizontal value="55">true</right_up_horizontal>
+    <right_up_vertical value="4">true</right_up_vertical>
+  </AddCropMarksInt>
+  <AddFoldLine>
+    <distance_du_bas value="89">true</distance_du_bas>
+  </AddFoldLine>
+  <Preflight>false</Preflight>
+  <Template>false</Template>
+  <Rotation>false</Rotation>
+  <Dimensions>false</Dimensions>
+  <NbPages>false</NbPages>
+  <Miroir>false</Miroir>
+  <CheckResolution>false</CheckResolution>
+  <AddMachineLine>false</AddMachineLine>
+  <AddText>false</AddText>
+  <Enlarge>false</Enlarge>
+  <AddOeillets30mm>false</AddOeillets30mm>
+</jobInfo>

@@ -59,6 +59,13 @@
         ]
     },
     {
+        "nom": "AddOeillets30mm",
+        "description": "Ajout d oeillets 30mm",
+        "champs": [
+            ""
+        ]
+    },
+    {
         "nom": "AddText",
         "description": "",
         "champs": [
@@ -67,6 +74,13 @@
             "left",
             "right",
             "up"
+        ]
+    },
+    {
+        "nom": "aefrzgethyrj,t",
+        "description": "zaf<apstrph>e<apstrph>g<apstrph>sfgdfgnh<apstrph>jh",
+        "champs": [
+            "down"
         ]
     },
     {

@@ -36,24 +36,35 @@ function updatebdd($table, $champs, $condition = "WHERE 1")
 }
 
 function newModele($name,$description,$fonctions){
+  $description = checkRequest($description);
 
     $SQL = "INSERT INTO modeles(nom,description,fct) VALUES('$name','$description','$fonctions')";
     return SQLInsert($SQL);
 }
 
 function newFonction($name,$description,$champs){
+  $description = checkRequest($description);
 
     $SQL = "INSERT INTO fonctions(nom,description,champs) VALUES('$name','$description','$champs')";
     return SQLInsert($SQL);
 }
 
 function newChamps($name,$modele,$nom,$typeinput,$unit,$valeur,$default_select){
+  $description = checkRequest($description);
     $SQL = "INSERT INTO champs(name,modele,nom,typeinput,unit,valeur,default_select) VALUES('$name','$modele','$nom','$typeinput','$unit','$valeur','$default_select')";
     return SQLInsert($SQL);
 }
 
 function newCategory($name,$modeles){
-
     $SQL = "INSERT INTO categories(nom,modeles) VALUES('$name','$modeles')";
     return SQLInsert($SQL);
+}
+
+function checkRequest($str){
+  $str = str_replace("'","<apstrph>", $str);
+  $str = str_replace('"',"<apstrph>", $str);
+  return $str;
+}
+function loadRequest($str){
+  return str_replace("<apstrph>","'", $str);
 }

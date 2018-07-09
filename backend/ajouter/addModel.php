@@ -1,5 +1,5 @@
 <?php
-include "libs/CreateJson.php";
+include "../libs/CreateJson.php";
 /* On reçoit un objet du type :
   [
     {

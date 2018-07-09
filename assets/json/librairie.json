@@ -612,7 +612,7 @@
                                 "typeinput": "text",
                                 "name": "down",
                                 "unit": "mm",
-                                "valeur": "56565665",
+                                "valeur": "57",
                                 "default_select": [
                                     ""
                                 ]

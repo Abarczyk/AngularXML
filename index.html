@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <title>Angular</title>
     <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.js"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
@@ -18,27 +18,49 @@
 
 
 <body ng-app ="myApp" ng-controller = "XMLController">
-    <div id="head" class="title">
-        <img src="assets/img/logoCapside.png" alt="logo">
-        <div>
-          <h1>AngularXML</h1>
-        </div>
-    </div>
-    <nav id="SideBar">
-        <ul>
-            <a href="#newModele"><li class="circle">Liste des modèles</li></a>
-            <a href="#AddModel"><li class="circle">Ajouter un modèle</li></a>
-            <a href="#AddCategory"><li class="circle">Ajouter une catégorie</li></a>
-            <a href="#AddFonction"><li class="circle">Ajouter une fonctions</li></a>
-            <a href="#AddChamp"><li class="circle">Ajouter un champ</li></a>
-        </ul>
-    </nav>
-    <div id="main" ng-view></div>
 
+
+    <div id="wrapper">
+          <!-- Sidebar -->
+          <div id="sidebar-wrapper">
+              <ul class="sidebar-nav">
+                  <li class="sidebar-brand"><a href="#newModele">Liste des modèles</a></li>
+                  <li><a href="#AddModel">Ajouter un modèle</a></li>
+                  <li><a href="#AddCategory">Ajouter une catégorie</a></li>
+                  <li><a href="#AddFonction">Ajouter une fonctions</a></li>
+                  <li><a href="#AddChamp">Ajouter un champ</a></li>
+              </ul>
+          </div>
+
+          <!-- /#sidebar-wrapper -->
+
+          <div id="page-content-wrapper">
+              <div id="head" class="title">
+
+                  <div>
+
+                    <a href="#menu-toggle" class="title" id="menu-toggle">MENU</a>
+                  </div>
+                  <div>
+                    <h1>AngularXML</h1>
+                  </div>
+                  <div style="style="text-align:right;"">
+                  <img src="assets/img/logoCapside.png" alt="logo">
+                  </div>
+              </div>
+              <div id="main" ng-view></div>
+          </div>
+
+        </div>
 
     <div id="footer">
         Version 0.1
     </div>
-
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
 </body>
 </html>
